@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include <vector>
 #include <cmath>
@@ -6,17 +6,17 @@
 
 namespace Dirichlettask {
 
-	using namespace System;
-	using namespace System::ComponentModel;
-	using namespace System::Collections;
-	using namespace System::Windows::Forms;
-	using namespace System::Data;
-	using namespace System::Drawing;
-	using namespace System::Windows::Forms::DataVisualization::Charting;
+    using namespace System;
+    using namespace System::ComponentModel;
+    using namespace System::Collections;
+    using namespace System::Windows::Forms;
+    using namespace System::Data;
+    using namespace System::Drawing;
+    using namespace System::Windows::Forms::DataVisualization::Charting;
 
-	/// <summary>
-	/// Сводка для MyForm
-	/// </summary>
+    /// <summary>
+    /// РЎРІРѕРґРєР° РґР»СЏ MyForm
+    /// </summary>
     public ref class MyForm : public System::Windows::Forms::Form
     {
     public:
@@ -24,13 +24,13 @@ namespace Dirichlettask {
         {
             InitializeComponent();
             //
-            //TODO: добавьте код конструктора
+            //TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
             //
         }
 
     protected:
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
         /// </summary>
         ~MyForm()
         {
@@ -46,41 +46,23 @@ namespace Dirichlettask {
 
 
 
-    private: System::Windows::Forms::GroupBox^  groupBox1;
-    private: System::Windows::Forms::GroupBox^  groupBox2;
-    private: System::Windows::Forms::TextBox^  textBox2;
-    private: System::Windows::Forms::TextBox^  textBox1;
-    private: System::Windows::Forms::TextBox^  textBox4;
-    private: System::Windows::Forms::Label^  label4;
-    private: System::Windows::Forms::TextBox^  textBox3;
-    private: System::Windows::Forms::Label^  label3;
-    private: System::Windows::Forms::Label^  label2;
-    private: System::Windows::Forms::Label^  label1;
-    private: System::Windows::Forms::Label^  label5;
+    private: System::Windows::Forms::GroupBox^ groupBox1;
+    private: System::Windows::Forms::GroupBox^ groupBox2;
+    private: System::Windows::Forms::TextBox^ textBox2;
+    private: System::Windows::Forms::TextBox^ textBox1;
+    private: System::Windows::Forms::TextBox^ textBox4;
+    private: System::Windows::Forms::Label^ label4;
+    private: System::Windows::Forms::TextBox^ textBox3;
+    private: System::Windows::Forms::Label^ label3;
+    private: System::Windows::Forms::Label^ label2;
+    private: System::Windows::Forms::Label^ label1;
+    private: System::Windows::Forms::Label^ label5;
 
-    private: System::Windows::Forms::Label^  label9;
-    private: System::Windows::Forms::Label^  label8;
-    private: System::Windows::Forms::Label^  label7;
-    private: System::Windows::Forms::Label^  label6;
-    private: System::Windows::Forms::Button^  buttonCalculateTest;
-
-
-
-
-
-
-
-    private: System::Windows::Forms::Label^  label13;
-    private: System::Windows::Forms::Label^  label12;
-    private: System::Windows::Forms::Label^  label11;
-    private: System::Windows::Forms::Label^  label10;
-    private: System::Windows::Forms::TabControl^  tabControl1;
-    private: System::Windows::Forms::TabPage^  tabPage1;
-    private: System::Windows::Forms::PictureBox^  pictureBox2;
-    private: System::Windows::Forms::Label^  label14;
-    private: System::Windows::Forms::TabPage^  tabPage2;
-    private: System::Windows::Forms::PictureBox^  pictureBox1;
-    private: System::Windows::Forms::Button^  buttonCalculateMain;
+    private: System::Windows::Forms::Label^ label9;
+    private: System::Windows::Forms::Label^ label8;
+    private: System::Windows::Forms::Label^ label7;
+    private: System::Windows::Forms::Label^ label6;
+    private: System::Windows::Forms::Button^ buttonCalculateTest;
 
 
 
@@ -88,59 +70,17 @@ namespace Dirichlettask {
 
 
 
-
-
-
-
-    private: System::Windows::Forms::GroupBox^  groupBox3;
-    private: System::Windows::Forms::TextBox^  textBox5;
-    private: System::Windows::Forms::Label^  label16;
-    private: System::Windows::Forms::TextBox^  textBox6;
-    private: System::Windows::Forms::Label^  label17;
-    private: System::Windows::Forms::Label^  label18;
-    private: System::Windows::Forms::Label^  label19;
-    private: System::Windows::Forms::TextBox^  textBox7;
-    private: System::Windows::Forms::TextBox^  textBox8;
-    private: System::Windows::Forms::Label^  label15;
-
-    private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart1;
-    private: System::Windows::Forms::TextBox^  textBox9;
-    private: System::Windows::Forms::Label^  label28;
-
-
-
-
-
-
-    private: System::Windows::Forms::DataGridView^  dataGridView1;
-    private: System::Windows::Forms::DataGridView^  dataGridView2;
-    private: System::Windows::Forms::TextBox^  textBox10;
-    private: System::Windows::Forms::Label^  label29;
-    private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart2;
-    private: System::Windows::Forms::GroupBox^  groupBox4;
-    private: System::Windows::Forms::Label^  label20;
-    private: System::Windows::Forms::Label^  label21;
-    private: System::Windows::Forms::Label^  label22;
-    private: System::Windows::Forms::Label^  label23;
-    private: System::Windows::Forms::Label^  label24;
-    private: System::Windows::Forms::Label^  label25;
-    private: System::Windows::Forms::Label^  label26;
-    private: System::Windows::Forms::Label^  label27;
-
-
-
-
-private: System::Windows::Forms::GroupBox^  groupBox7;
-private: System::Windows::Forms::RadioButton^  radioButtonYTest;
-private: System::Windows::Forms::RadioButton^  radioButtonXTest;
-private: System::Windows::Forms::RadioButton^  radioButtonNullTest;
-
-private: System::Windows::Forms::GroupBox^  groupBox8;
-private: System::Windows::Forms::RadioButton^  radioButtonYMain;
-
-private: System::Windows::Forms::RadioButton^  radioButtonXMain;
-
-private: System::Windows::Forms::RadioButton^  radioButtonNullMain;
+    private: System::Windows::Forms::Label^ label13;
+    private: System::Windows::Forms::Label^ label12;
+    private: System::Windows::Forms::Label^ label11;
+    private: System::Windows::Forms::Label^ label10;
+    private: System::Windows::Forms::TabControl^ tabControl1;
+    private: System::Windows::Forms::TabPage^ tabPage1;
+    private: System::Windows::Forms::PictureBox^ pictureBox2;
+    private: System::Windows::Forms::Label^ label14;
+    private: System::Windows::Forms::TabPage^ tabPage2;
+    private: System::Windows::Forms::PictureBox^ pictureBox1;
+    private: System::Windows::Forms::Button^ buttonCalculateMain;
 
 
 
@@ -152,53 +92,113 @@ private: System::Windows::Forms::RadioButton^  radioButtonNullMain;
 
 
 
+    private: System::Windows::Forms::GroupBox^ groupBox3;
+    private: System::Windows::Forms::TextBox^ textBox5;
+    private: System::Windows::Forms::Label^ label16;
+    private: System::Windows::Forms::TextBox^ textBox6;
+    private: System::Windows::Forms::Label^ label17;
+    private: System::Windows::Forms::Label^ label18;
+    private: System::Windows::Forms::Label^ label19;
+    private: System::Windows::Forms::TextBox^ textBox7;
+    private: System::Windows::Forms::TextBox^ textBox8;
+    private: System::Windows::Forms::Label^ label15;
+
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart1;
+    private: System::Windows::Forms::TextBox^ textBox9;
+    private: System::Windows::Forms::Label^ label28;
 
 
-private: System::Windows::Forms::Label^  label31;
-private: System::Windows::Forms::Label^  label30;
-private: System::Windows::Forms::GroupBox^  groupBox11;
-private: System::Windows::Forms::GroupBox^  groupBox12;
-private: System::Windows::Forms::Label^  label32;
 
-private: System::Windows::Forms::Label^  label36;
-private: System::Windows::Forms::Label^  label37;
-private: System::Windows::Forms::Label^  label38;
-private: System::Windows::Forms::Label^  label39;
-private: System::Windows::Forms::Label^  label40;
-private: System::Windows::Forms::CheckBox^  checkBox2;
-private: System::Windows::Forms::CheckBox^  checkBox1;
-private: System::Windows::Forms::TabControl^  tabControl2;
-private: System::Windows::Forms::TabPage^  tabPage3;
-private: System::Windows::Forms::TabPage^  tabPage4;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart3;
-private: System::Windows::Forms::TabPage^  tabPage5;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart4;
-private: System::Windows::Forms::TabPage^  tabPage6;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart5;
-private: System::Windows::Forms::TabPage^  tabPage7;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart6;
-private: System::Windows::Forms::TabControl^  tabControl3;
-private: System::Windows::Forms::TabPage^  tabPage8;
-private: System::Windows::Forms::TabPage^  tabPage9;
-private: System::Windows::Forms::DataGridView^  dataGridView3;
-private: System::Windows::Forms::TabPage^  tabPage10;
-private: System::Windows::Forms::DataGridView^  dataGridView4;
-private: System::Windows::Forms::TabControl^  tabControl5;
-private: System::Windows::Forms::TabPage^  tabPage15;
-private: System::Windows::Forms::TabPage^  tabPage16;
-private: System::Windows::Forms::DataGridView^  dataGridView5;
-private: System::Windows::Forms::TabPage^  tabPage17;
-private: System::Windows::Forms::DataGridView^  dataGridView6;
-private: System::Windows::Forms::TabPage^  tabPage18;
-private: System::Windows::Forms::DataGridView^  dataGridView7;
-private: System::Windows::Forms::TabControl^  tabControl4;
-private: System::Windows::Forms::TabPage^  tabPage11;
-private: System::Windows::Forms::TabPage^  tabPage12;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart7;
-private: System::Windows::Forms::TabPage^  tabPage13;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart8;
-private: System::Windows::Forms::TabPage^  tabPage14;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
+
+
+
+    private: System::Windows::Forms::DataGridView^ dataGridView1;
+    private: System::Windows::Forms::DataGridView^ dataGridView2;
+    private: System::Windows::Forms::TextBox^ textBox10;
+    private: System::Windows::Forms::Label^ label29;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart2;
+    private: System::Windows::Forms::GroupBox^ groupBox4;
+    private: System::Windows::Forms::Label^ label20;
+    private: System::Windows::Forms::Label^ label21;
+    private: System::Windows::Forms::Label^ label22;
+    private: System::Windows::Forms::Label^ label23;
+    private: System::Windows::Forms::Label^ label24;
+    private: System::Windows::Forms::Label^ label25;
+    private: System::Windows::Forms::Label^ label26;
+    private: System::Windows::Forms::Label^ label27;
+
+
+
+
+    private: System::Windows::Forms::GroupBox^ groupBox7;
+    private: System::Windows::Forms::RadioButton^ radioButtonYTest;
+    private: System::Windows::Forms::RadioButton^ radioButtonXTest;
+    private: System::Windows::Forms::RadioButton^ radioButtonNullTest;
+
+    private: System::Windows::Forms::GroupBox^ groupBox8;
+    private: System::Windows::Forms::RadioButton^ radioButtonYMain;
+
+    private: System::Windows::Forms::RadioButton^ radioButtonXMain;
+
+    private: System::Windows::Forms::RadioButton^ radioButtonNullMain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private: System::Windows::Forms::Label^ label31;
+    private: System::Windows::Forms::Label^ label30;
+    private: System::Windows::Forms::GroupBox^ groupBox11;
+    private: System::Windows::Forms::GroupBox^ groupBox12;
+    private: System::Windows::Forms::Label^ label32;
+
+    private: System::Windows::Forms::Label^ label36;
+    private: System::Windows::Forms::Label^ label37;
+    private: System::Windows::Forms::Label^ label38;
+    private: System::Windows::Forms::Label^ label39;
+    private: System::Windows::Forms::Label^ label40;
+    private: System::Windows::Forms::CheckBox^ checkBox2;
+    private: System::Windows::Forms::CheckBox^ checkBox1;
+    private: System::Windows::Forms::TabControl^ tabControl2;
+    private: System::Windows::Forms::TabPage^ tabPage3;
+    private: System::Windows::Forms::TabPage^ tabPage4;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart3;
+    private: System::Windows::Forms::TabPage^ tabPage5;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart4;
+    private: System::Windows::Forms::TabPage^ tabPage6;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart5;
+    private: System::Windows::Forms::TabPage^ tabPage7;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart6;
+    private: System::Windows::Forms::TabControl^ tabControl3;
+    private: System::Windows::Forms::TabPage^ tabPage8;
+    private: System::Windows::Forms::TabPage^ tabPage9;
+    private: System::Windows::Forms::DataGridView^ dataGridView3;
+    private: System::Windows::Forms::TabPage^ tabPage10;
+    private: System::Windows::Forms::DataGridView^ dataGridView4;
+    private: System::Windows::Forms::TabControl^ tabControl5;
+    private: System::Windows::Forms::TabPage^ tabPage15;
+    private: System::Windows::Forms::TabPage^ tabPage16;
+    private: System::Windows::Forms::DataGridView^ dataGridView5;
+    private: System::Windows::Forms::TabPage^ tabPage17;
+    private: System::Windows::Forms::DataGridView^ dataGridView6;
+    private: System::Windows::Forms::TabPage^ tabPage18;
+    private: System::Windows::Forms::DataGridView^ dataGridView7;
+    private: System::Windows::Forms::TabControl^ tabControl4;
+    private: System::Windows::Forms::TabPage^ tabPage11;
+    private: System::Windows::Forms::TabPage^ tabPage12;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart7;
+    private: System::Windows::Forms::TabPage^ tabPage13;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart8;
+    private: System::Windows::Forms::TabPage^ tabPage14;
+    private: System::Windows::Forms::DataVisualization::Charting::Chart^ chart9;
 
 
 
@@ -216,27 +216,27 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
 
     private:
         /// <summary>
-        /// Обязательная переменная конструктора.
+        /// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
         /// </summary>
-        System::ComponentModel::Container ^components;
+        System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+        /// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
         /// </summary>
         void InitializeComponent(void)
         {
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea5 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea6 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea7 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea8 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-            System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea9 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea5 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea6 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea7 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea8 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+            System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea9 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
             this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
             this->label31 = (gcnew System::Windows::Forms::Label());
             this->label13 = (gcnew System::Windows::Forms::Label());
@@ -410,7 +410,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox1->Size = System::Drawing::Size(726, 318);
             this->groupBox1->TabIndex = 5;
             this->groupBox1->TabStop = false;
-            this->groupBox1->Text = L"Справка";
+            this->groupBox1->Text = L"РЎРїСЂР°РІРєР°";
             // 
             // label31
             // 
@@ -419,7 +419,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label31->Name = L"label31";
             this->label31->Size = System::Drawing::Size(212, 17);
             this->label31->TabIndex = 9;
-            this->label31->Text = L"Достигнутая точность метода:";
+            this->label31->Text = L"Р”РѕСЃС‚РёРіРЅСѓС‚Р°СЏ С‚РѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:";
             // 
             // label13
             // 
@@ -428,7 +428,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label13->Name = L"label13";
             this->label13->Size = System::Drawing::Size(90, 17);
             this->label13->TabIndex = 7;
-            this->label13->Text = L"В узле (x, y):";
+            this->label13->Text = L"Р’ СѓР·Р»Рµ (x, y):";
             // 
             // label12
             // 
@@ -437,7 +437,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label12->Name = L"label12";
             this->label12->Size = System::Drawing::Size(300, 17);
             this->label12->TabIndex = 6;
-            this->label12->Text = L"Макс. разность точн. и числ. решений |U-V|:";
+            this->label12->Text = L"РњР°РєСЃ. СЂР°Р·РЅРѕСЃС‚СЊ С‚РѕС‡РЅ. Рё С‡РёСЃР». СЂРµС€РµРЅРёР№ |U-V|:";
             // 
             // label11
             // 
@@ -446,7 +446,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label11->Name = L"label11";
             this->label11->Size = System::Drawing::Size(281, 17);
             this->label11->TabIndex = 5;
-            this->label11->Text = L"Схема на сетке решена с невязкой Rs_2:";
+            this->label11->Text = L"РЎС…РµРјР° РЅР° СЃРµС‚РєРµ СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ Rs_2:";
             // 
             // label10
             // 
@@ -455,7 +455,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label10->Name = L"label10";
             this->label10->Size = System::Drawing::Size(291, 17);
             this->label10->TabIndex = 4;
-            this->label10->Text = L"Невязка СЛАУ на нач. приближении R0_2:";
+            this->label10->Text = L"РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р»РёР¶РµРЅРёРё R0_2:";
             // 
             // label9
             // 
@@ -464,7 +464,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label9->Name = L"label9";
             this->label9->Size = System::Drawing::Size(248, 17);
             this->label9->TabIndex = 3;
-            this->label9->Text = L"Достигнутая погрешность решения:";
+            this->label9->Text = L"Р”РѕСЃС‚РёРіРЅСѓС‚Р°СЏ РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ СЂРµС€РµРЅРёСЏ:";
             // 
             // label8
             // 
@@ -473,7 +473,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label8->Name = L"label8";
             this->label8->Size = System::Drawing::Size(124, 17);
             this->label8->TabIndex = 2;
-            this->label8->Text = L"Кол-во итераций:";
+            this->label8->Text = L"РљРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№:";
             // 
             // label7
             // 
@@ -482,7 +482,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label7->Name = L"label7";
             this->label7->Size = System::Drawing::Size(130, 17);
             this->label7->TabIndex = 1;
-            this->label7->Text = L"Параметр метода:";
+            this->label7->Text = L"РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:";
             // 
             // label6
             // 
@@ -491,7 +491,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label6->Name = L"label6";
             this->label6->Size = System::Drawing::Size(54, 17);
             this->label6->TabIndex = 0;
-            this->label6->Text = L"Метод:";
+            this->label6->Text = L"РњРµС‚РѕРґ:";
             // 
             // groupBox2
             // 
@@ -511,16 +511,16 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox2->Size = System::Drawing::Size(726, 114);
             this->groupBox2->TabIndex = 6;
             this->groupBox2->TabStop = false;
-            this->groupBox2->Text = L"Параметры метода";
+            this->groupBox2->Text = L"РџР°СЂР°РјРµС‚СЂС‹ РјРµС‚РѕРґР°";
             // 
             // checkBox2
             // 
             this->checkBox2->AutoSize = true;
-            this->checkBox2->Location = System::Drawing::Point(440, 77);
+            this->checkBox2->Location = System::Drawing::Point(281, 77);
             this->checkBox2->Name = L"checkBox2";
             this->checkBox2->Size = System::Drawing::Size(280, 21);
             this->checkBox2->TabIndex = 27;
-            this->checkBox2->Text = L"Использовать оптимальное значение";
+            this->checkBox2->Text = L"РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕРїС‚РёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ";
             this->checkBox2->UseVisualStyleBackColor = true;
             // 
             // label28
@@ -528,9 +528,9 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label28->AutoSize = true;
             this->label28->Location = System::Drawing::Point(7, 75);
             this->label28->Name = L"label28";
-            this->label28->Size = System::Drawing::Size(305, 17);
+            this->label28->Size = System::Drawing::Size(154, 17);
             this->label28->TabIndex = 23;
-            this->label28->Text = L"Параметр метода  w (в интервале от 0 до 2):";
+            this->label28->Text = L"РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР° tau:";
             // 
             // textBox4
             // 
@@ -541,7 +541,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             // 
             // textBox9
             // 
-            this->textBox9->Location = System::Drawing::Point(318, 75);
+            this->textBox9->Location = System::Drawing::Point(172, 75);
             this->textBox9->Name = L"textBox9";
             this->textBox9->Size = System::Drawing::Size(84, 22);
             this->textBox9->TabIndex = 22;
@@ -553,7 +553,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label4->Name = L"label4";
             this->label4->Size = System::Drawing::Size(163, 17);
             this->label4->TabIndex = 6;
-            this->label4->Text = L"Макс. кол-во итераций:";
+            this->label4->Text = L"РњР°РєСЃ. РєРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№:";
             // 
             // textBox3
             // 
@@ -569,7 +569,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label3->Name = L"label3";
             this->label3->Size = System::Drawing::Size(126, 17);
             this->label3->TabIndex = 4;
-            this->label3->Text = L"Точность метода:";
+            this->label3->Text = L"РўРѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:";
             // 
             // label2
             // 
@@ -578,7 +578,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label2->Name = L"label2";
             this->label2->Size = System::Drawing::Size(159, 17);
             this->label2->TabIndex = 3;
-            this->label2->Text = L"Число разбиений по y:";
+            this->label2->Text = L"Р§РёСЃР»Рѕ СЂР°Р·Р±РёРµРЅРёР№ РїРѕ y:";
             // 
             // label1
             // 
@@ -587,11 +587,11 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label1->Name = L"label1";
             this->label1->Size = System::Drawing::Size(158, 17);
             this->label1->TabIndex = 2;
-            this->label1->Text = L"Число разбиений по x:";
+            this->label1->Text = L"Р§РёСЃР»Рѕ СЂР°Р·Р±РёРµРЅРёР№ РїРѕ x:";
             // 
             // textBox2
             // 
-            this->textBox2->Location = System::Drawing::Point(171, 47);
+            this->textBox2->Location = System::Drawing::Point(172, 47);
             this->textBox2->Name = L"textBox2";
             this->textBox2->Size = System::Drawing::Size(84, 22);
             this->textBox2->TabIndex = 1;
@@ -619,7 +619,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->buttonCalculateTest->Name = L"buttonCalculateTest";
             this->buttonCalculateTest->Size = System::Drawing::Size(340, 48);
             this->buttonCalculateTest->TabIndex = 10;
-            this->buttonCalculateTest->Text = L"Вычислить";
+            this->buttonCalculateTest->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
             this->buttonCalculateTest->UseVisualStyleBackColor = true;
             this->buttonCalculateTest->Click += gcnew System::EventHandler(this, &MyForm::buttonCalculateTest_Click);
             // 
@@ -648,7 +648,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->tabPage1->Padding = System::Windows::Forms::Padding(3);
             this->tabPage1->Size = System::Drawing::Size(1504, 895);
             this->tabPage1->TabIndex = 0;
-            this->tabPage1->Text = L"Тестовая задача";
+            this->tabPage1->Text = L"РўРµСЃС‚РѕРІР°СЏ Р·Р°РґР°С‡Р°";
             this->tabPage1->UseVisualStyleBackColor = true;
             // 
             // tabControl5
@@ -679,6 +679,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView1->Location = System::Drawing::Point(0, 3);
             this->dataGridView1->Name = L"dataGridView1";
+            this->dataGridView1->RowHeadersWidth = 51;
             this->dataGridView1->RowTemplate->Height = 24;
             this->dataGridView1->Size = System::Drawing::Size(737, 401);
             this->dataGridView1->TabIndex = 20;
@@ -699,6 +700,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView5->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView5->Location = System::Drawing::Point(2, 3);
             this->dataGridView5->Name = L"dataGridView5";
+            this->dataGridView5->RowHeadersWidth = 51;
             this->dataGridView5->RowTemplate->Height = 24;
             this->dataGridView5->Size = System::Drawing::Size(737, 401);
             this->dataGridView5->TabIndex = 21;
@@ -718,6 +720,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView6->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView6->Location = System::Drawing::Point(2, 3);
             this->dataGridView6->Name = L"dataGridView6";
+            this->dataGridView6->RowHeadersWidth = 51;
             this->dataGridView6->RowTemplate->Height = 24;
             this->dataGridView6->Size = System::Drawing::Size(737, 401);
             this->dataGridView6->TabIndex = 21;
@@ -737,6 +740,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView7->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView7->Location = System::Drawing::Point(2, 3);
             this->dataGridView7->Name = L"dataGridView7";
+            this->dataGridView7->RowHeadersWidth = 51;
             this->dataGridView7->RowTemplate->Height = 24;
             this->dataGridView7->Size = System::Drawing::Size(737, 401);
             this->dataGridView7->TabIndex = 21;
@@ -853,7 +857,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox7->Size = System::Drawing::Size(726, 100);
             this->groupBox7->TabIndex = 24;
             this->groupBox7->TabStop = false;
-            this->groupBox7->Text = L"Начальное приближение";
+            this->groupBox7->Text = L"РќР°С‡Р°Р»СЊРЅРѕРµ РїСЂРёР±Р»РёР¶РµРЅРёРµ";
             // 
             // radioButtonYTest
             // 
@@ -863,7 +867,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonYTest->Size = System::Drawing::Size(179, 21);
             this->radioButtonYTest->TabIndex = 2;
             this->radioButtonYTest->TabStop = true;
-            this->radioButtonYTest->Text = L"Интерполяция вдоль y";
+            this->radioButtonYTest->Text = L"РРЅС‚РµСЂРїРѕР»СЏС†РёСЏ РІРґРѕР»СЊ y";
             this->radioButtonYTest->UseVisualStyleBackColor = true;
             // 
             // radioButtonXTest
@@ -874,7 +878,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonXTest->Size = System::Drawing::Size(178, 21);
             this->radioButtonXTest->TabIndex = 1;
             this->radioButtonXTest->TabStop = true;
-            this->radioButtonXTest->Text = L"Интерполяция вдоль x";
+            this->radioButtonXTest->Text = L"РРЅС‚РµСЂРїРѕР»СЏС†РёСЏ РІРґРѕР»СЊ x";
             this->radioButtonXTest->UseVisualStyleBackColor = true;
             // 
             // radioButtonNullTest
@@ -885,7 +889,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonNullTest->Size = System::Drawing::Size(85, 21);
             this->radioButtonNullTest->TabIndex = 0;
             this->radioButtonNullTest->TabStop = true;
-            this->radioButtonNullTest->Text = L"Нулевое";
+            this->radioButtonNullTest->Text = L"РќСѓР»РµРІРѕРµ";
             this->radioButtonNullTest->UseVisualStyleBackColor = true;
             // 
             // pictureBox2
@@ -906,7 +910,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label14->Name = L"label14";
             this->label14->Size = System::Drawing::Size(172, 25);
             this->label14->TabIndex = 12;
-            this->label14->Text = L"Описание задачи";
+            this->label14->Text = L"РћРїРёСЃР°РЅРёРµ Р·Р°РґР°С‡Рё";
             // 
             // tabPage2
             // 
@@ -923,7 +927,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->tabPage2->Padding = System::Windows::Forms::Padding(3);
             this->tabPage2->Size = System::Drawing::Size(1504, 895);
             this->tabPage2->TabIndex = 1;
-            this->tabPage2->Text = L"Основная задача";
+            this->tabPage2->Text = L"РћСЃРЅРѕРІРЅР°СЏ Р·Р°РґР°С‡Р°";
             this->tabPage2->UseVisualStyleBackColor = true;
             // 
             // tabControl3
@@ -953,6 +957,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView2->Location = System::Drawing::Point(6, 6);
             this->dataGridView2->Name = L"dataGridView2";
+            this->dataGridView2->RowHeadersWidth = 51;
             this->dataGridView2->RowTemplate->Height = 24;
             this->dataGridView2->Size = System::Drawing::Size(708, 419);
             this->dataGridView2->TabIndex = 19;
@@ -973,6 +978,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView3->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView3->Location = System::Drawing::Point(4, 6);
             this->dataGridView3->Name = L"dataGridView3";
+            this->dataGridView3->RowHeadersWidth = 51;
             this->dataGridView3->RowTemplate->Height = 24;
             this->dataGridView3->Size = System::Drawing::Size(708, 419);
             this->dataGridView3->TabIndex = 20;
@@ -992,6 +998,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->dataGridView4->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
             this->dataGridView4->Location = System::Drawing::Point(4, 6);
             this->dataGridView4->Name = L"dataGridView4";
+            this->dataGridView4->RowHeadersWidth = 51;
             this->dataGridView4->RowTemplate->Height = 24;
             this->dataGridView4->Size = System::Drawing::Size(708, 419);
             this->dataGridView4->TabIndex = 20;
@@ -1131,7 +1138,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox8->Size = System::Drawing::Size(757, 50);
             this->groupBox8->TabIndex = 27;
             this->groupBox8->TabStop = false;
-            this->groupBox8->Text = L"Начальное приближение";
+            this->groupBox8->Text = L"РќР°С‡Р°Р»СЊРЅРѕРµ РїСЂРёР±Р»РёР¶РµРЅРёРµ";
             // 
             // radioButtonYMain
             // 
@@ -1141,7 +1148,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonYMain->Size = System::Drawing::Size(179, 21);
             this->radioButtonYMain->TabIndex = 2;
             this->radioButtonYMain->TabStop = true;
-            this->radioButtonYMain->Text = L"Интерполяция вдоль y";
+            this->radioButtonYMain->Text = L"РРЅС‚РµСЂРїРѕР»СЏС†РёСЏ РІРґРѕР»СЊ y";
             this->radioButtonYMain->UseVisualStyleBackColor = true;
             // 
             // radioButtonXMain
@@ -1152,7 +1159,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonXMain->Size = System::Drawing::Size(178, 21);
             this->radioButtonXMain->TabIndex = 1;
             this->radioButtonXMain->TabStop = true;
-            this->radioButtonXMain->Text = L"Интерполяция вдоль x";
+            this->radioButtonXMain->Text = L"РРЅС‚РµСЂРїРѕР»СЏС†РёСЏ РІРґРѕР»СЊ x";
             this->radioButtonXMain->UseVisualStyleBackColor = true;
             // 
             // radioButtonNullMain
@@ -1163,7 +1170,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->radioButtonNullMain->Size = System::Drawing::Size(85, 21);
             this->radioButtonNullMain->TabIndex = 0;
             this->radioButtonNullMain->TabStop = true;
-            this->radioButtonNullMain->Text = L"Нулевое";
+            this->radioButtonNullMain->Text = L"РќСѓР»РµРІРѕРµ";
             this->radioButtonNullMain->UseVisualStyleBackColor = true;
             // 
             // groupBox4
@@ -1175,7 +1182,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox4->Size = System::Drawing::Size(757, 402);
             this->groupBox4->TabIndex = 25;
             this->groupBox4->TabStop = false;
-            this->groupBox4->Text = L"Справка";
+            this->groupBox4->Text = L"РЎРїСЂР°РІРєР°";
             // 
             // groupBox12
             // 
@@ -1190,7 +1197,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox12->Size = System::Drawing::Size(754, 158);
             this->groupBox12->TabIndex = 11;
             this->groupBox12->TabStop = false;
-            this->groupBox12->Text = L"Сетка (2n,2m)";
+            this->groupBox12->Text = L"РЎРµС‚РєР° (2n,2m)";
             // 
             // label32
             // 
@@ -1199,7 +1206,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label32->Name = L"label32";
             this->label32->Size = System::Drawing::Size(54, 17);
             this->label32->TabIndex = 0;
-            this->label32->Text = L"Метод:";
+            this->label32->Text = L"РњРµС‚РѕРґ:";
             // 
             // label36
             // 
@@ -1208,7 +1215,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label36->Name = L"label36";
             this->label36->Size = System::Drawing::Size(130, 17);
             this->label36->TabIndex = 1;
-            this->label36->Text = L"Параметр метода:";
+            this->label36->Text = L"РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:";
             // 
             // label37
             // 
@@ -1217,7 +1224,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label37->Name = L"label37";
             this->label37->Size = System::Drawing::Size(236, 17);
             this->label37->TabIndex = 5;
-            this->label37->Text = L"Схема решена с невязкой R2_s_2:";
+            this->label37->Text = L"РЎС…РµРјР° СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ R2_s_2:";
             // 
             // label38
             // 
@@ -1226,7 +1233,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label38->Name = L"label38";
             this->label38->Size = System::Drawing::Size(178, 17);
             this->label38->TabIndex = 3;
-            this->label38->Text = L"Достиг. точность метода:";
+            this->label38->Text = L"РЎС…РµРјР° СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№:";
             // 
             // label39
             // 
@@ -1235,7 +1242,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label39->Name = L"label39";
             this->label39->Size = System::Drawing::Size(262, 17);
             this->label39->TabIndex = 4;
-            this->label39->Text = L"Невязка СЛАУ на нач. прибл. R2_0_2:";
+            this->label39->Text = L"РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р». R2_0_2:";
             // 
             // label40
             // 
@@ -1244,7 +1251,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label40->Name = L"label40";
             this->label40->Size = System::Drawing::Size(124, 17);
             this->label40->TabIndex = 2;
-            this->label40->Text = L"Кол-во итераций:";
+            this->label40->Text = L"РљРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№:";
             // 
             // groupBox11
             // 
@@ -1262,7 +1269,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox11->Size = System::Drawing::Size(751, 217);
             this->groupBox11->TabIndex = 10;
             this->groupBox11->TabStop = false;
-            this->groupBox11->Text = L"Сетка (n,m)";
+            this->groupBox11->Text = L"РЎРµС‚РєР° (n,m)";
             // 
             // label27
             // 
@@ -1271,7 +1278,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label27->Name = L"label27";
             this->label27->Size = System::Drawing::Size(54, 17);
             this->label27->TabIndex = 0;
-            this->label27->Text = L"Метод:";
+            this->label27->Text = L"РњРµС‚РѕРґ:";
             // 
             // label20
             // 
@@ -1280,7 +1287,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label20->Name = L"label20";
             this->label20->Size = System::Drawing::Size(90, 17);
             this->label20->TabIndex = 7;
-            this->label20->Text = L"В узле (x, y):";
+            this->label20->Text = L"Р’ СѓР·Р»Рµ (x, y):";
             // 
             // label30
             // 
@@ -1289,7 +1296,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label30->Name = L"label30";
             this->label30->Size = System::Drawing::Size(189, 17);
             this->label30->TabIndex = 9;
-            this->label30->Text = L"Достиг. точность решения:";
+            this->label30->Text = L"Р”РѕСЃС‚РёРі. С‚РѕС‡РЅРѕСЃС‚СЊ СЂРµС€РµРЅРёСЏ:";
             // 
             // label21
             // 
@@ -1298,7 +1305,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label21->Name = L"label21";
             this->label21->Size = System::Drawing::Size(217, 17);
             this->label21->TabIndex = 6;
-            this->label21->Text = L"Макс. разность решений |V2-V|:";
+            this->label21->Text = L"РњР°РєСЃ. СЂР°Р·РЅРѕСЃС‚СЊ СЂРµС€РµРЅРёР№ |V2-V|:";
             // 
             // label26
             // 
@@ -1307,7 +1314,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label26->Name = L"label26";
             this->label26->Size = System::Drawing::Size(130, 17);
             this->label26->TabIndex = 1;
-            this->label26->Text = L"Параметр метода:";
+            this->label26->Text = L"РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:";
             // 
             // label22
             // 
@@ -1316,7 +1323,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label22->Name = L"label22";
             this->label22->Size = System::Drawing::Size(220, 17);
             this->label22->TabIndex = 5;
-            this->label22->Text = L"Схема решена с невязкой Rs_2:";
+            this->label22->Text = L"РЎС…РµРјР° СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ Rs_2:";
             // 
             // label24
             // 
@@ -1325,7 +1332,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label24->Name = L"label24";
             this->label24->Size = System::Drawing::Size(178, 17);
             this->label24->TabIndex = 3;
-            this->label24->Text = L"Достиг. точность метода:";
+            this->label24->Text = L"Р”РѕСЃС‚РёРі. С‚РѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:";
             // 
             // label23
             // 
@@ -1334,7 +1341,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label23->Name = L"label23";
             this->label23->Size = System::Drawing::Size(246, 17);
             this->label23->TabIndex = 4;
-            this->label23->Text = L"Невязка СЛАУ на нач. прибл. R0_2:";
+            this->label23->Text = L"РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р». R0_2:";
             // 
             // label25
             // 
@@ -1343,7 +1350,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label25->Name = L"label25";
             this->label25->Size = System::Drawing::Size(124, 17);
             this->label25->TabIndex = 2;
-            this->label25->Text = L"Кол-во итераций:";
+            this->label25->Text = L"РљРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№:";
             // 
             // buttonCalculateMain
             // 
@@ -1352,7 +1359,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->buttonCalculateMain->Name = L"buttonCalculateMain";
             this->buttonCalculateMain->Size = System::Drawing::Size(338, 48);
             this->buttonCalculateMain->TabIndex = 15;
-            this->buttonCalculateMain->Text = L"Вычислить";
+            this->buttonCalculateMain->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
             this->buttonCalculateMain->UseVisualStyleBackColor = true;
             this->buttonCalculateMain->Click += gcnew System::EventHandler(this, &MyForm::buttonCalculateMain_Click);
             // 
@@ -1384,21 +1391,21 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->groupBox3->Size = System::Drawing::Size(757, 112);
             this->groupBox3->TabIndex = 14;
             this->groupBox3->TabStop = false;
-            this->groupBox3->Text = L"Параметры метода";
+            this->groupBox3->Text = L"РџР°СЂР°РјРµС‚СЂС‹ РјРµС‚РѕРґР°";
             // 
             // checkBox1
             // 
             this->checkBox1->AutoSize = true;
-            this->checkBox1->Location = System::Drawing::Point(433, 78);
+            this->checkBox1->Location = System::Drawing::Point(292, 76);
             this->checkBox1->Name = L"checkBox1";
             this->checkBox1->Size = System::Drawing::Size(280, 21);
             this->checkBox1->TabIndex = 26;
-            this->checkBox1->Text = L"Использовать оптимальное значение";
+            this->checkBox1->Text = L"РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕРїС‚РёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ";
             this->checkBox1->UseVisualStyleBackColor = true;
             // 
             // textBox10
             // 
-            this->textBox10->Location = System::Drawing::Point(317, 78);
+            this->textBox10->Location = System::Drawing::Point(182, 75);
             this->textBox10->Name = L"textBox10";
             this->textBox10->Size = System::Drawing::Size(84, 22);
             this->textBox10->TabIndex = 25;
@@ -1408,9 +1415,9 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label29->AutoSize = true;
             this->label29->Location = System::Drawing::Point(6, 75);
             this->label29->Name = L"label29";
-            this->label29->Size = System::Drawing::Size(305, 17);
+            this->label29->Size = System::Drawing::Size(154, 17);
             this->label29->TabIndex = 24;
-            this->label29->Text = L"Параметр метода  w (в интервале от 0 до 2):";
+            this->label29->Text = L"РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР° tau:";
             // 
             // textBox5
             // 
@@ -1426,7 +1433,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label16->Name = L"label16";
             this->label16->Size = System::Drawing::Size(163, 17);
             this->label16->TabIndex = 6;
-            this->label16->Text = L"Макс. кол-во итераций:";
+            this->label16->Text = L"РњР°РєСЃ. РєРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№:";
             // 
             // textBox6
             // 
@@ -1442,7 +1449,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label17->Name = L"label17";
             this->label17->Size = System::Drawing::Size(126, 17);
             this->label17->TabIndex = 4;
-            this->label17->Text = L"Точность метода:";
+            this->label17->Text = L"РўРѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:";
             // 
             // label18
             // 
@@ -1451,7 +1458,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label18->Name = L"label18";
             this->label18->Size = System::Drawing::Size(159, 17);
             this->label18->TabIndex = 3;
-            this->label18->Text = L"Число разбиений по y:";
+            this->label18->Text = L"Р§РёСЃР»Рѕ СЂР°Р·Р±РёРµРЅРёР№ РїРѕ y:";
             // 
             // label19
             // 
@@ -1460,7 +1467,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label19->Name = L"label19";
             this->label19->Size = System::Drawing::Size(158, 17);
             this->label19->TabIndex = 2;
-            this->label19->Text = L"Число разбиений по x:";
+            this->label19->Text = L"Р§РёСЃР»Рѕ СЂР°Р·Р±РёРµРЅРёР№ РїРѕ x:";
             // 
             // textBox7
             // 
@@ -1484,7 +1491,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->label15->Name = L"label15";
             this->label15->Size = System::Drawing::Size(172, 25);
             this->label15->TabIndex = 13;
-            this->label15->Text = L"Описание задачи";
+            this->label15->Text = L"РћРїРёСЃР°РЅРёРµ Р·Р°РґР°С‡Рё";
             // 
             // MyForm
             // 
@@ -1495,7 +1502,7 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
             this->Controls->Add(this->label5);
             this->Name = L"MyForm";
             this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-            this->Text = L"ЛР 1. Вариант 5. Решение задачи Дирихле для уравнения Пуассона. Команда Цодикова."
+            this->Text = L"Р›Р  1. Р’Р°СЂРёР°РЅС‚ 5. Р РµС€РµРЅРёРµ Р·Р°РґР°С‡Рё Р”РёСЂРёС…Р»Рµ РґР»СЏ СѓСЂР°РІРЅРµРЅРёСЏ РџСѓР°СЃСЃРѕРЅР°. РљРѕРјР°РЅРґР° Р¦РѕРґРёРєРѕРІР°."
                 L"";
             this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
             this->groupBox1->ResumeLayout(false);
@@ -1562,18 +1569,18 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
         }
 #pragma endregion
 
-    private: 
+    private:
         int Nmax;
         double eps;
         int n, m;
-        double w; // parameter from 0 to 2
+        double tau; // method's parameter 
         const double PI = 3.141592653589793;
         const double a = 0.0;
         const double b = 2.0;
         const double c = 0.0;
         const double d = 1.0;
 
-    private: 
+    private:
         double u(double i, double j, int _n, int _m) {
             const double h = (b - a) / _n;
             const double k = (d - c) / _m;
@@ -1648,892 +1655,888 @@ private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart9;
 
     private: Color calculateColorRed(double min, double z, double max) {
         int c = (int)Math::Round((max - z) * 255 / (max - min));
-        return Color::FromArgb(255, Clamp(c,0,255), Clamp(c,0,255));
+        return Color::FromArgb(255, Clamp(c, 0, 255), Clamp(c, 0, 255));
     }
 
     private: Color calculateColorBlue(double min, double z, double max) {
-         int c = (int)Math::Round((max - z) * 255 / (max - min));
-         return Color::FromArgb(Clamp(c, 0, 255), Clamp(c, 0, 255), 255);
+        int c = (int)Math::Round((max - z) * 255 / (max - min));
+        return Color::FromArgb(Clamp(c, 0, 255), Clamp(c, 0, 255), 255);
     }
-     
+
     private: Color calculateColorPurple(double min, double z, double max) {
         int c = (int)Math::Round((max - z) * 255 / (max - min));
         return Color::FromArgb(255, Clamp(c, 0, 255), 255);
     }
 
-   
 
-    System::Void buttonCalculateTest_Click(System::Object^  sender, System::EventArgs^  e) {
-        n = Convert::ToInt32(textBox1->Text);
-        m = Convert::ToInt32(textBox2->Text);
-        eps = Convert::ToDouble(textBox3->Text);
-        Nmax = Convert::ToInt32(textBox4->Text);
-        
-       /* int n_2 = 2 * n;
-        int m_2 = 2 * m;*/
 
-        int s = 0;
-        double eps_max = 0.0;
-        double eps_cur = 0.0;
-        double solve_err = 0.0;
-        double solve_eps = 0.0;
-        double a2, k2, h2; // a2_2, k2_2, h2_2;
-        double h = (b - a) / n;
-        double k = (d - c) / m;
-        /*double h_2 = (b - a) / n_2;
-        double k_2 = (d - c) / m_2;*/
+           System::Void buttonCalculateTest_Click(System::Object^ sender, System::EventArgs^ e) {
+               n = Convert::ToInt32(textBox1->Text);
+               m = Convert::ToInt32(textBox2->Text);
+               eps = Convert::ToDouble(textBox3->Text);
+               Nmax = Convert::ToInt32(textBox4->Text);
 
-        if (checkBox2->Checked) {
-            w = 2.0 - (h + k);
-        }
-        else {
-            w = Convert::ToDouble(textBox9->Text);
-        }
-        
+               /* int n_2 = 2 * n;
+                int m_2 = 2 * m;*/
 
-        double uv_max = 0.0;
-        double x_max, y_max;
+               int s = 0;
+               double eps_max = 0.0;
+               double eps_cur = 0.0;
+               double solve_err = 0.0;
+               double solve_eps = 0.0;
+               double a2, k2, h2; // a2_2, k2_2, h2_2;
+               double h = (b - a) / n;
+               double k = (d - c) / m;
+               /*double h_2 = (b - a) / n_2;
+               double k_2 = (d - c) / m_2;*/
 
-        std::vector<std::vector<double>> v(n + 1, std::vector<double>(m + 1, 0.0));
-        std::vector<std::vector<double>> f(n + 1, std::vector<double>(m + 1, 0.0));
-        std::vector<std::vector<double>> R(n + 1, std::vector<double>(m + 1, 0.0));
+               if (checkBox2->Checked) {
+                   tau = 2 / (abs(4 / (h * h) * sin(PI / (2 * n)) * sin(PI / (2 * n)) + 4 / (k * k) * sin(PI / (2 * m)) * sin(PI / (2 * m))) + abs(4 / (h * h) * sin(PI * (n - 1) / (2 * n)) * sin(PI * (n - 1) / (2 * n)) + 4 / (k * k) * sin(PI * (m - 1) / (2 * m)) * sin(PI * (m - 1) / (2 * m))));
+               }
+               else {
+                   tau = Convert::ToDouble(textBox9->Text);
+               }
 
-        /*std::vector<std::vector<double>> v2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
-        std::vector<std::vector<double>> f2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));*/
 
-        double v_old; // v_old2;
-        double v_new; // v_new2;
-        double R_N_2 = 0.0;
-        double R_0_2 = 0.0;
-        bool flag = false;
+               double uv_max = 0.0;
+               double x_max, y_max;
 
-        h2 = -(1 / (h * h));
-        k2 = -(1 / (k * k));
-        a2 = -2 * (h2 + k2);
+               std::vector<std::vector<double>> v(n + 1, std::vector<double>(m + 1, 0.0));
+               std::vector<std::vector<double>> f(n + 1, std::vector<double>(m + 1, 0.0));
+               std::vector<std::vector<double>> R(n + 1, std::vector<double>(m + 1, 0.0));
 
-        /*h2_2 = -(1 / (h_2 * h_2));
-        k2_2 = -(1 / (k_2 * k_2));
-        a2_2 = -2 * (h2_2 + k2_2);*/
+               /*std::vector<std::vector<double>> v2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
+               std::vector<std::vector<double>> f2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));*/
 
-        if (radioButtonNullTest->Checked) {
-            //it's ok
-        }
+              // double v_old; // v_old2;
+               double v_new; // v_new2;
+               double R_N_2 = 0.0;
+               double R_0_2 = 0.0;
+               bool flag = false;
 
-        if (radioButtonXTest->Checked) {
-            for (int j = 1; j < m; j++)
-                for (int i = 1; i < n; i++) {
-                    v[i][j] = interpolationXTest(j, m);
-                }
+               h2 = -(1 / (h * h));
+               k2 = -(1 / (k * k));
+               a2 = -2 * (h2 + k2);
 
-           /* for (int j = 1; j < m_2; j++)
-                for (int i = 1; i < n_2; i++) {
-                    v2[i][j] = interpolationXTest(j, m_2);
-                }*/
-        }
+               /*h2_2 = -(1 / (h_2 * h_2));
+               k2_2 = -(1 / (k_2 * k_2));
+               a2_2 = -2 * (h2_2 + k2_2);*/
 
-        if (radioButtonYTest->Checked) {
-            for (int j = 1; j < m; j++)
-                for (int i = 1; i < n; i++) {
-                    v[i][j] = interpolationYTest(i, n);
-                }
+               if (radioButtonNullTest->Checked) {
+                   //it's ok
+               }
 
-           /* for (int j = 1; j < m_2; j++)
-                for (int i = 1; i < n_2; i++) {
-                    v2[i][j] = interpolationYTest(i, n_2);
-                }*/
-        }
+               if (radioButtonXTest->Checked) {
+                   for (int j = 1; j < m; j++)
+                       for (int i = 1; i < n; i++) {
+                           v[i][j] = interpolationXTest(j, m);
+                       }
 
-        // initialize u1(y), u2(y) for (n, m)
-        for (int j = 0; j <= m; j++) {
-            double y = c + j * k;
-            v[0][j] = u1_test(y);
-            v[n][j] = u2_test(y);
-        }
+                   /* for (int j = 1; j < m_2; j++)
+                        for (int i = 1; i < n_2; i++) {
+                            v2[i][j] = interpolationXTest(j, m_2);
+                        }*/
+               }
 
-        //// initialize u1(y), u2(y) for (2n, 2m)
-        //for (int j = 0; j <= m_2; j++) {
-        //    double y = c + j * k_2;
-        //    v2[0][j] = u1_test(y);
-        //    v2[n_2][j] = u2_test(y);
-        //}
+               if (radioButtonYTest->Checked) {
+                   for (int j = 1; j < m; j++)
+                       for (int i = 1; i < n; i++) {
+                           v[i][j] = interpolationYTest(i, n);
+                       }
 
-        // initialize u3(x), u4(x) for (n, m)
-        for (int i = 0; i <= n; i++) {
-            double x = a + i * h;
-            v[i][0] = u3_test(x);
-            v[i][m] = u4_test(x);
-        }
+                   /* for (int j = 1; j < m_2; j++)
+                        for (int i = 1; i < n_2; i++) {
+                            v2[i][j] = interpolationYTest(i, n_2);
+                        }*/
+               }
 
-        //// initialize u3(x), u4(x) for (2n, 2m)
-        //for (int i = 0; i <= n_2; i++) {
-        //    double x = a + i * h_2;
-        //    v2[i][0] = u3_test(x);
-        //    v2[i][m_2] = u4_test(x);
-        //}
+               // initialize u1(y), u2(y) for (n, m)
+               for (int j = 0; j <= m; j++) {
+                   double y = c + j * k;
+                   v[0][j] = u1_test(y);
+                   v[n][j] = u2_test(y);
+               }
 
-        // initialize f(x,y) for (n, m)
-        for (int j = 0; j <= m; j++)
-            for (int i = 0; i <= n; i++) {
-                double x = a + i * h;
-                double y = c + j * k;
-                f[i][j] = f_test(x, y);
-            }
+               //// initialize u1(y), u2(y) for (2n, 2m)
+               //for (int j = 0; j <= m_2; j++) {
+               //    double y = c + j * k_2;
+               //    v2[0][j] = u1_test(y);
+               //    v2[n_2][j] = u2_test(y);
+               //}
 
-        //// initialize f(x,y) for (2n, 2m)
-        //for (int j = 0; j <= m_2; j++)
-        //    for (int i = 0; i <= n_2; i++) {
-        //        double x = a + i * h_2;
-        //        double y = c + j * k_2;
-        //        f2[i][j] = f_test(x, y);
-        //    }
+               // initialize u3(x), u4(x) for (n, m)
+               for (int i = 0; i <= n; i++) {
+                   double x = a + i * h;
+                   v[i][0] = u3_test(x);
+                   v[i][m] = u4_test(x);
+               }
 
-        // calculate R for null iteration, (n, m)
-        for (int j = 1; j < m; j++)
-            for (int i = 1; i < n; i++) {
-                R[i][j] = a2 * v[i][j] + h2 * v[i + 1][j] + h2 * v[i - 1][j] + k2 * v[i][j + 1] + k2 * v[i][j - 1] - f[i][j];
-            }
+               //// initialize u3(x), u4(x) for (2n, 2m)
+               //for (int i = 0; i <= n_2; i++) {
+               //    double x = a + i * h_2;
+               //    v2[i][0] = u3_test(x);
+               //    v2[i][m_2] = u4_test(x);
+               //}
 
-        for (int i = 0; i < n + 1; i++)
-            for (int j = 0; j < m + 1; j++) {
-                R_0_2 += R[i][j] * R[i][j];
-            }
-        R_0_2 = std::sqrt(R_0_2);
-        // end of calculating R for null iteration, (n, m)
+               // initialize f(x,y) for (n, m)
+               for (int j = 0; j <= m; j++)
+                   for (int i = 0; i <= n; i++) {
+                       double x = a + i * h;
+                       double y = c + j * k;
+                       f[i][j] = f_test(x, y);
+                   }
 
-        dataGridView1->Rows->Clear();
-        dataGridView1->Columns->Clear();
-        this->dataGridView1->Columns->Add("", "j / i");
+               //// initialize f(x,y) for (2n, 2m)
+               //for (int j = 0; j <= m_2; j++)
+               //    for (int i = 0; i <= n_2; i++) {
+               //        double x = a + i * h_2;
+               //        double y = c + j * k_2;
+               //        f2[i][j] = f_test(x, y);
+               //    }
 
-        int newm = m;
-        int newn = n;
+               // calculate R for null iteration, (n, m)
+               for (int j = 1; j < m; j++)
+                   for (int i = 1; i < n; i++) {
+                       R[i][j] = a2 * v[i][j] + h2 * v[i + 1][j] + h2 * v[i - 1][j] + k2 * v[i][j + 1] + k2 * v[i][j - 1] - f[i][j];
+                   }
 
-        for (int j = 0; j <= std::min(100, newm); j++) {
-            this->dataGridView1->Rows->Add(Convert::ToString(j));
-        }
+               for (int i = 0; i < n + 1; i++)
+                   for (int j = 0; j < m + 1; j++) {
+                       R_0_2 += R[i][j] * R[i][j];
+                   }
+               R_0_2 = std::sqrt(R_0_2);
+               // end of calculating R for null iteration, (n, m)
 
-        for (int i = 0; i <= std::min(newn, 100); i++) {
-            this->dataGridView1->Columns->Add("", Convert::ToString(i));
-        }
+               dataGridView1->Rows->Clear();
+               dataGridView1->Columns->Clear();
+               this->dataGridView1->Columns->Add("", "j / i");
 
-        for (int i = 0; i <= std::min(newn, 100); i++)
-            for (int j = 0; j <= std::min(newm, 100); j++)
-                this->dataGridView1->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
+               int newm = m;
+               int newn = n;
 
-        this->chart1->Series->Clear();
-        this->chart7->Series->Clear();
-        this->chart8->Series->Clear();
-        this->chart9->Series->Clear();
+               for (int j = 0; j <= std::min(100, newm); j++) {
+                   this->dataGridView1->Rows->Add(Convert::ToString(j));
+               }
 
-        //if (radioButtonDrawV0->Checked) {
-            chart7->ChartAreas[0]->RecalculateAxesScale();
-            double x7, y7, z7;
-            double xstep7 = (b - a) / n, ystep7 = (d - c) / m;
-            double max7 = v[0][0], min7 = max7;
-            Color Color1;
-            for (x7 = a; x7 <= b; x7 += xstep7)
-                for (y7 = c; y7 <= d; y7 += ystep7) {
-                    int i = int((x7 - a) / xstep7);
-                    int j = int((y7 - c) / ystep7);
-                    z7 = v[i][j];
-                    if (z7 > max7) max7 = z7;
-                    else if (z7 < min7) min7 = z7;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart7->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x7 = a + i * xstep7;
-                    y7 = c + j * ystep7;
-                    z7 = v[i][j];
-                    chart7->Series[i]->Points->AddXY((double)y7, z7);
-                    Color1 = calculateColorBlue(min7, z7, max7);
-                    chart7->Series[i]->Points[j]->Color = Color1;
-                    chart7->Series[i]->Points[j]->BackSecondaryColor = Color1;
-                }
-            }
-        //}
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView1->Columns->Add("", Convert::ToString(i));
+               }
 
-        // MVR
-        while (!flag) {
-            eps_max = 0.0;
-            // (n, m)
-            for (int j = 1; j < m; j++) {
-                for (int i = 1; i < n; i++) {
-                    v_old = v[i][j];
-                    v_new = -w * (h2 * v[i + 1][j] + h2 * v[i - 1][j] + k2 * v[i][j + 1] + k2 * v[i][j - 1]);
-                    v_new = v_new + (1 - w) * a2 * v[i][j] + w * f[i][j];
-                    v_new = v_new / a2;
-                    v[i][j] = v_new;
-                    R[i][j] = a2 * v[i][j] + h2 * v[i + 1][j] + h2 * v[i - 1][j] + k2 * v[i][j + 1] + k2 * v[i][j - 1] - f[i][j];
-                    eps_cur = std::abs(v_old - v_new);
-                    if (eps_cur > eps_max) {
-                        eps_max = eps_cur;
+               for (int i = 0; i <= std::min(newn, 100); i++)
+                   for (int j = 0; j <= std::min(newm, 100); j++)
+                       this->dataGridView1->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
+
+               this->chart1->Series->Clear();
+               this->chart7->Series->Clear();
+               this->chart8->Series->Clear();
+               this->chart9->Series->Clear();
+
+               //if (radioButtonDrawV0->Checked) {
+               chart7->ChartAreas[0]->RecalculateAxesScale();
+               double x7, y7, z7;
+               double xstep7 = (b - a) / n, ystep7 = (d - c) / m;
+               double max7 = v[0][0], min7 = max7;
+               Color Color1;
+               for (x7 = a; x7 <= b; x7 += xstep7)
+                   for (y7 = c; y7 <= d; y7 += ystep7) {
+                       int i = int((x7 - a) / xstep7);
+                       int j = int((y7 - c) / ystep7);
+                       z7 = v[i][j];
+                       if (z7 > max7) max7 = z7;
+                       else if (z7 < min7) min7 = z7;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart7->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x7 = a + i * xstep7;
+                       y7 = c + j * ystep7;
+                       z7 = v[i][j];
+                       chart7->Series[i]->Points->AddXY((double)y7, z7);
+                       Color1 = calculateColorBlue(min7, z7, max7);
+                       chart7->Series[i]->Points[j]->Color = Color1;
+                       chart7->Series[i]->Points[j]->BackSecondaryColor = Color1;
+                   }
+               }
+               //}
+
+               // РњРµС‚РѕРґ РїСЂРѕСЃС‚РѕР№ РёС‚РµСЂР°С†РёРё
+               std::vector<std::vector<double>> v_old(n + 1, std::vector<double>(m + 1, 0.0));
+
+               while (!flag) {
+                   eps_max = 0.0;
+                   // (n, m)
+                   for (int j = 1; j < m; j++) 
+                       for (int i = 1; i < n; i++)
+                           v_old[i][j] = v[i][j];
+                   for (int j = 1; j < m; j++) 
+                       for (int i = 1; i < n; i++) {
+                           R[i][j] = a2 * v_old[i][j] + h2 * v_old[i + 1][j] + h2 * v_old[i - 1][j] + k2 * v_old[i][j + 1] + k2 * v_old[i][j - 1] - f[i][j];
+                           v_new = v_old[i][j] - tau * R[i][j];
+                           v[i][j] = v_new;
+                           eps_cur = std::abs(v_old[i][j] - v_new);
+                           if (eps_cur > eps_max) {
+                               eps_max = eps_cur;
+                           }
+                       }
+                   s++;
+                   if ((eps_max <= eps) || (s >= Nmax)) {
+                       flag = true;
+                   }
+               }
+               // End РјРµС‚РѕРґР° РїСЂРѕСЃС‚РѕР№ РёС‚РµСЂР°С†РёРё
+
+               R_N_2 = 0.0;
+               for (int i = 0; i < n + 1; i++)
+                   for (int j = 0; j < m + 1; j++) {
+                       R_N_2 += R[i][j] * R[i][j];
+                   }
+               R_N_2 = std::sqrt(R_N_2);
+
+               for (int j = 0; j < m + 1; j++)
+                   for (int i = 0; i < n + 1; i++) {
+                       /*if (std::abs(v2[2 * i][2 * j] - v[i][j]) > solve_eps) {
+                           solve_eps = std::abs(v2[2 * i][2 * j] - v[i][j]);
+                       }*/
+
+                       if (std::abs(u(i, j, n, m) - v[i][j]) > solve_err) {
+                           solve_err = std::abs(u(i, j, n, m) - v[i][j]);
+                       }
+
+                   }
+
+               this->label6->Text = "РњРµС‚РѕРґ:    РјРµС‚РѕРґ РІРµСЂС…РЅРµР№ СЂРµР»Р°РєСЃР°С†РёРё";
+               this->label7->Text = ("РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(tau));
+               this->label31->Text = ("Р”РѕСЃС‚РёРіРЅСѓС‚Р°СЏ С‚РѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(eps_max));
+               this->label8->Text = ("РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№:" + "   " + Convert::ToString(s));
+               this->label9->Text = ("Р”РѕСЃС‚РёРіРЅСѓС‚Р°СЏ РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ СЂРµС€РµРЅРёСЏ:" + "   " + Convert::ToString(solve_err));
+               this->label10->Text = ("РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р»РёР¶РµРЅРёРё R0_2:" + "   " + Convert::ToString(round(R_0_2 * 1e8) / 1e8));
+               this->label11->Text = ("РЎС…РµРјР° РЅР° СЃРµС‚РєРµ СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ Rs_2:" + "   " + Convert::ToString(R_N_2));
+
+
+               for (int j = 0; j < m + 1; j++)
+                   for (int i = 0; i < n + 1; i++) {
+                       if (std::abs(u(i, j, n, m) - v[i][j]) > uv_max) {
+                           uv_max = std::abs(u(i, j, n, m) - v[i][j]);
+                           x_max = a + i * h;
+                           y_max = c + j * k;
+                       }
+                   }
+
+               this->label12->Text = ("РњР°РєСЃ. СЂР°Р·РЅРѕСЃС‚СЊ РґРІСѓС… СЂРµС€РµРЅРёР№ |U-V|:" + "   " + Convert::ToString(round(uv_max * 1e8) / 1e8));
+               this->label13->Text = ("Р’ СѓР·Р»Рµ (x, y):" + "   (" + Convert::ToString(round(x_max * 1e8) / 1e8) + ", " + Convert::ToString(round(y_max * 1e8) / 1e8) + ")");
+
+               //if (this->radioButtonU->Checked) {
+               dataGridView5->Rows->Clear();
+               dataGridView5->Columns->Clear();
+               this->dataGridView5->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(newm, 100); j++) {
+                   this->dataGridView5->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView5->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++)
+                   for (int j = 0; j <= std::min(newm, 100); j++)
+                       this->dataGridView5->Rows[j]->Cells[i + 1]->Value = round(u(i, j, n, m) * 1e8) / 1e8;
+               //}
+
+               //if (this->radioButtonV->Checked) {
+               dataGridView6->Rows->Clear();
+               dataGridView6->Columns->Clear();
+               this->dataGridView6->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(newm, 100); j++) {
+                   this->dataGridView6->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView6->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++)
+                   for (int j = 0; j <= std::min(newm, 100); j++)
+                       this->dataGridView6->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
+               //}
+
+               //if (this->radioButtonV2V->Checked) {
+               dataGridView7->Rows->Clear();
+               dataGridView7->Columns->Clear();
+               this->dataGridView7->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(newm, 100); j++) {
+                   this->dataGridView7->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView7->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++)
+                   for (int j = 0; j <= std::min(newm, 100); j++)
+                       this->dataGridView7->Rows[j]->Cells[i + 1]->Value = round(std::abs(u(i, j, n, m) - v[i][j]) * 1e8) / 1e8;
+               //}
+
+               //if (radioButtonDrawU->Checked) {
+               chart1->ChartAreas[0]->RecalculateAxesScale();
+               double x1, y1, z1;
+               double xstep1 = (b - a) / n, ystep1 = (d - c) / m;
+               double max1 = u(a, c, n, m), min1 = max1;
+               Color Color2;
+               for (x1 = a; x1 <= b; x1 += xstep1)
+                   for (y1 = c; y1 <= d; y1 += ystep1) {
+                       int i = int((x1 - a) / xstep1);
+                       int j = int((y1 - c) / ystep1);
+                       z1 = u(i, j, n, m);
+                       if (z1 > max1) max1 = z1;
+                       else if (z1 < min1) min1 = z1;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart1->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x1 = a + i * xstep1;
+                       y1 = c + j * ystep1;
+                       z1 = u(i, j, n, m);
+                       chart1->Series[i]->Points->AddXY((double)y1, z1);
+                       Color2 = calculateColorPurple(min1, z1, max1);
+                       chart1->Series[i]->Points[j]->Color = Color2;
+                       chart1->Series[i]->Points[j]->BackSecondaryColor = Color2;
+                   }
+               }
+               //}
+
+               //if (radioButtonDrawV->Checked) {
+               chart8->ChartAreas[0]->RecalculateAxesScale();
+               double x8, y8, z8;
+               double xstep8 = (b - a) / n, ystep8 = (d - c) / m;
+               double max8 = v[0][0], min8 = max8;
+               Color Color8;
+               for (x8 = a; x8 <= b; x8 += xstep8)
+                   for (y8 = c; y8 <= d; y8 += ystep8) {
+                       int i = int((x8 - a) / xstep8);
+                       int j = int((y8 - c) / ystep8);
+                       z8 = v[i][j];
+                       if (z8 > max8) max8 = z8;
+                       else if (z8 < min8) min8 = z8;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart8->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x8 = a + i * xstep8;
+                       y8 = c + j * ystep8;
+                       z8 = v[i][j];
+                       chart8->Series[i]->Points->AddXY((double)y8, z8);
+                       Color8 = calculateColorBlue(min8, z8, max8);
+                       chart8->Series[i]->Points[j]->Color = Color8;
+                       chart8->Series[i]->Points[j]->BackSecondaryColor = Color8;
+                   }
+               }
+               //}
+
+               //if (radioButtonDrawUV->Checked) {
+               chart9->ChartAreas[0]->RecalculateAxesScale();
+               double x9, y9, z9;
+               double xstep9 = (b - a) / n, ystep9 = (d - c) / m;
+               double max9 = u(a, c, n, m) - v[0][0], min9 = max9;
+               Color Color9;
+               for (x9 = a; x9 <= b; x9 += xstep9)
+                   for (y9 = c; y9 <= d; y9 += ystep9) {
+                       int i = int((x9 - a) / xstep9);
+                       int j = int((y9 - c) / ystep9);
+                       z9 = u(i, j, n, m) - v[i][j];
+                       if (z9 > max9) max9 = z9;
+                       else if (z9 < min9) min9 = z9;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart9->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x9 = a + i * xstep9;
+                       y9 = c + j * ystep9;
+                       z9 = u(i, j, n, m) - v[i][j];
+                       chart9->Series[i]->Points->AddXY((double)y9, z9);
+                       Color9 = calculateColorRed(min9, z9, max9);
+                       chart9->Series[i]->Points[j]->Color = Color9;
+                       chart9->Series[i]->Points[j]->BackSecondaryColor = Color9;
+                   }
+               }
+               //}
+           }
+
+           System::Void buttonCalculateMain_Click(System::Object^ sender, System::EventArgs^ e) {
+               n = Convert::ToInt32(textBox8->Text);
+               m = Convert::ToInt32(textBox7->Text);
+               eps = Convert::ToDouble(textBox6->Text);
+               Nmax = Convert::ToInt32(textBox5->Text);
+
+               int n_2 = 2 * n;
+               int m_2 = 2 * m;
+
+               double tau2;
+
+               int s = 0, s2 = 0;
+               double eps_max = 0.0, eps_max2 = 0.0;
+               double eps_cur = 0.0, eps_curr2 = 0.0;
+               double solve_eps = 0.0;
+               double a2, k2, h2, a2_2, k2_2, h2_2;
+               double h = (b - a) / n;
+               double k = (d - c) / m;
+               double h_2 = (b - a) / n_2;
+               double k_2 = (d - c) / m_2;
+
+               if (checkBox1->Checked) {
+                   tau = 2 / ((4 / (h * h) * sin(PI / (2 * n)) * sin(PI / (2 * n)) + 4 / (k * k) * sin(PI / (2 * m)) * sin(PI / (2 * m))) + (4 / (h * h) * sin(PI * (n - 1) / (2 * n)) * sin(PI * (n - 1) / (2 * n)) + 4 / (k * k) * sin(PI * (m - 1) / (2 * m)) * sin(PI * (m - 1) / (2 * m))));
+               }
+               else {
+                   tau = Convert::ToDouble(textBox10->Text);
+               }
+               tau2 = tau;
+
+               double v2v_max = 0.0;
+               double x_max, y_max;
+
+               std::vector<std::vector<double>> v(n + 1, std::vector<double>(m + 1, 0.0));
+               std::vector<std::vector<double>> f(n + 1, std::vector<double>(m + 1, 0.0));
+               std::vector<std::vector<double>> R(n + 1, std::vector<double>(m + 1, 0.0));
+
+               std::vector<std::vector<double>> v2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
+               std::vector<std::vector<double>> f2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
+               std::vector<std::vector<double>> R2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
+
+               //double v_old, v_old2;
+               double v_new, v_new2;
+               double R_N_2 = 0.0, R2_N_2 = 0.0;
+               double R_0_2 = 0.0, R2_0_2 = 0.0;
+               bool flag = false, flag2 = false;
+
+               h2 = -(1 / (h * h));
+               k2 = -(1 / (k * k));
+               a2 = -2 * (h2 + k2);
+
+               h2_2 = -(1 / (h_2 * h_2));
+               k2_2 = -(1 / (k_2 * k_2));
+               a2_2 = -2 * (h2_2 + k2_2);
+
+               if (radioButtonNullMain->Checked) {
+                   //it's ok
+               }
+
+               if (radioButtonXMain->Checked) {
+                   for (int j = 1; j < m; j++)
+                       for (int i = 1; i < n; i++) {
+                           v[i][j] = interpolationXTest(j, m);
+                       }
+
+                   for (int j = 1; j < m_2; j++)
+                       for (int i = 1; i < n_2; i++) {
+                           v2[i][j] = interpolationXTest(j, m_2);
+                       }
+               }
+
+               if (radioButtonYMain->Checked) {
+                   for (int j = 1; j < m; j++)
+                       for (int i = 1; i < n; i++) {
+                           v[i][j] = interpolationYTest(i, n);
+                       }
+
+                   for (int j = 1; j < m_2; j++)
+                       for (int i = 1; i < n_2; i++) {
+                           v2[i][j] = interpolationYTest(i, n_2);
+                       }
+               }
+
+               // initialize u1(y), u2(y) for (n, m)
+               for (int j = 0; j <= m; j++) {
+                   double y = c + j * k;
+                   v[0][j] = u1(y);
+                   v[n][j] = u2(y);
+               }
+
+               // initialize u3(x), u4(x) for (n, m)
+               for (int i = 0; i <= n; i++) {
+                   double x = a + i * h;
+                   v[i][0] = u3(x);
+                   v[i][m] = u4(x);
+               }
+
+               // initialize f(x,y) for (n, m)
+               for (int j = 0; j <= m; j++)
+                   for (int i = 0; i <= n; i++) {
+                       double x = a + i * h;
+                       double y = c + j * k;
+                       f[i][j] = f_main(x, y);
+                   }
+               // initialize u1(y), u2(y) for (2n, 2m)
+               for (int j = 0; j <= m_2; j++) {
+                   double y = c + j * k_2;
+                   v2[0][j] = u1(y);
+                   v2[n_2][j] = u2(y);
+               }
+
+               // initialize u3(x), u4(x) for (2n, 2m)
+               for (int i = 0; i <= n_2; i++) {
+                   double x = a + i * h_2;
+                   v2[i][0] = u3(x);
+                   v2[i][m_2] = u4(x);
+               }
+
+               // initialize f(x,y) for (2n, 2m)
+               for (int j = 0; j <= m_2; j++)
+                   for (int i = 0; i <= n_2; i++) {
+                       double x = a + i * h_2;
+                       double y = c + j * k_2;
+                       f2[i][j] = f_main(x, y);
+                   }
+
+               // calculate R0 (n,m)
+               for (int j = 1; j < m; j++)
+                   for (int i = 1; i < n; i++) {
+                       R[i][j] = a2 * v[i][j] + (h2 * (v[i + 1][j] + v[i - 1][j]) + k2 * (v[i][j + 1] + v[i][j - 1])) - f[i][j];
+                   }
+
+               for (int i = 0; i < n + 1; i++)
+                   for (int j = 0; j < m + 1; j++) {
+                       R_0_2 += R[i][j] * R[i][j];
+                   }
+               R_0_2 = std::sqrt(R_0_2);
+               // end of calculating R0 (n,m)
+
+               // calculate R0 (2n,2m)
+               for (int j = 1; j < m_2; j++)
+                   for (int i = 1; i < n_2; i++) {
+                       R2[i][j] = a2_2 * v2[i][j] + (h2_2 * (v2[i + 1][j] + v2[i - 1][j]) + k2_2 * (v2[i][j + 1] + v2[i][j - 1])) - f2[i][j];
+                   }
+
+               for (int i = 0; i < n_2 + 1; i++)
+                   for (int j = 0; j < m_2 + 1; j++) {
+                       R2_0_2 += R2[i][j] * R2[i][j];
+                   }
+               R2_0_2 = std::sqrt(R2_0_2);
+               // end of calculating R0 (2n,2m)
+
+               this->chart2->Series->Clear();
+               this->chart3->Series->Clear();
+               this->chart4->Series->Clear();
+               this->chart5->Series->Clear();
+               this->chart6->Series->Clear();
+
+               //if (radioButtonDrawV0Main->Checked) {
+               chart2->ChartAreas[0]->RecalculateAxesScale();
+               double x1, y1, z1;
+               double xstep1 = (b - a) / n, ystep1 = (d - c) / m;
+               double max1 = v[0][0], min1 = max1;
+               Color Color1;
+               for (x1 = a; x1 <= b; x1 += xstep1)
+                   for (y1 = c; y1 <= d; y1 += ystep1) {
+                       int i = int((x1 - a) / xstep1);
+                       int j = int((y1 - c) / ystep1);
+                       z1 = v[i][j];
+                       if (z1 > max1) max1 = z1;
+                       else if (z1 < min1) min1 = z1;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart2->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x1 = a + i * xstep1;
+                       y1 = c + j * ystep1;
+                       z1 = v[i][j];
+                       chart2->Series[i]->Points->AddXY((double)y1, z1);
+                       Color1 = calculateColorBlue(min1, z1, max1);
+                       chart2->Series[i]->Points[j]->Color = Color1;
+                       chart2->Series[i]->Points[j]->BackSecondaryColor = Color1;
+                   }
+               }
+               //}
+
+               //if (radioButtonDrawV20->Checked) {
+               chart3->ChartAreas[0]->RecalculateAxesScale();
+               double x2, y2, z2;
+               double xstep2 = (b - a) / n_2, ystep2 = (d - c) / m_2;
+               double max2 = v2[0][0], min2 = max2;
+               Color Color2;
+               for (x2 = a; x2 <= b; x2 += xstep2)
+                   for (y2 = c; y2 <= d; y2 += ystep2) {
+                       int i = int((x2 - a) / xstep2);
+                       int j = int((y2 - c) / ystep2);
+                       z2 = v2[i][j];
+                       if (z2 > max2) max2 = z2;
+                       else if (z2 < min2) min2 = z2;
+                   }
+               for (int i = 0; i <= n_2; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart3->Series->Add(Series1);
+                   for (int j = 0; j <= m_2; j++) {
+                       x2 = a + i * xstep2;
+                       y2 = c + j * ystep2;
+                       z2 = v2[i][j];
+                       chart3->Series[i]->Points->AddXY((double)y2, z2);
+                       Color2 = calculateColorPurple(min2, z2, max2);
+                       chart3->Series[i]->Points[j]->Color = Color2;
+                       chart3->Series[i]->Points[j]->BackSecondaryColor = Color2;
+                   }
+               }
+               //}
+
+               std::vector<std::vector<double>> v_old(n + 1, std::vector<double>(m + 1, 0.0)), v_old2(2 * n + 1, std::vector<double>(2 * m + 1, 0.0));
+
+               while (!flag2) {
+                   eps_max2 = 0.0;
+
+                   // (2n, 2m)
+                   for (int j = 1; j < m_2; j++) 
+                       for (int i = 1; i < n_2; i++) 
+                           v_old2[i][j] = v2[i][j];
+                   for (int j = 1; j < m_2; j++)
+                       for (int i = 1; i < n_2; i++){
+                           R2[i][j] = a2_2 * v_old2[i][j] + (h2_2 * (v_old2[i + 1][j] + v_old2[i - 1][j]) + k2_2 * (v_old2[i][j + 1] + v_old2[i][j - 1])) - f2[i][j];
+                           v_new2 = v_old2[i][j] - tau2 * R2[i][j];
+                           v2[i][j] = v_new2;
+                           eps_curr2 = std::abs(v_old2[i][j] - v_new2);
+                           if (eps_curr2 > eps_max2) {
+                               eps_max2 = eps_curr2;
+                           }
+                       }
+                   s2++;
+                   if ((eps_max2 <= eps) || (s2 >= Nmax)) {
+                       flag2 = true;
+                   }
+               }
+
+
+               while (!flag) {
+                   eps_max = 0.0;
+
+                   // (n, m)
+                   for (int j = 1; j < m; j++) 
+                       for (int i = 1; i < n; i++) 
+                           v_old[i][j] = v[i][j];
+                   for (int j = 1; j < m; j++)
+                       for (int i = 1; i < n; i++) {
+                           R[i][j] = a2 * v_old[i][j] + (h2 * (v_old[i + 1][j] + v_old[i - 1][j]) + k2 * (v_old[i][j + 1] + v_old[i][j - 1])) - f[i][j];
+                           v_new = v_old[i][j] - tau * R[i][j];
+                           v[i][j] = v_new;
+                           eps_cur = std::abs(v_old[i][j] - v_new);
+                           if (eps_cur > eps_max) {
+                               eps_max = eps_cur;
+                           }
+                       }
+                    s++;
+                    if ((eps_max <= eps) || (s >= Nmax)) {
+                        flag = true;
                     }
                 }
-            }
 
-            s++;
-            if ((eps_max <= eps) || (s >= Nmax)) {
-                flag = true;
-            }
-        }
-        // End MVR
-
-        R_N_2 = 0.0;
-        for (int i = 0; i < n + 1; i++)
-            for (int j = 0; j < m + 1; j++) {
-                R_N_2 += R[i][j] * R[i][j];
-            }
-        R_N_2 = std::sqrt(R_N_2);
-
-        for (int j = 0; j < m + 1; j++)
-            for (int i = 0; i < n + 1; i++) {
-                /*if (std::abs(v2[2 * i][2 * j] - v[i][j]) > solve_eps) {
-                    solve_eps = std::abs(v2[2 * i][2 * j] - v[i][j]);
-                }*/
-
-                if (std::abs(u(i, j, n, m) - v[i][j]) > solve_err) {
-                    solve_err = std::abs(u(i, j, n, m) - v[i][j]);
-                }
-
-            }
-
-        this->label6->Text = "Метод:    метод верхней релаксации";
-        this->label7->Text = ("Параметр метода:" + "   " + Convert::ToString(w));
-        this->label31->Text = ("Достигнутая точность метода:" + "   " + Convert::ToString(eps_max));
-        this->label8->Text = ("Количество итераций:" + "   " + Convert::ToString(s));
-        this->label9->Text = ("Достигнутая погрешность решения:" + "   " + Convert::ToString(solve_err));
-        this->label10->Text = ("Невязка СЛАУ на нач. приближении R0_2:" + "   " + Convert::ToString(round(R_0_2 * 1e8) / 1e8));
-        this->label11->Text = ("Схема на сетке решена с невязкой Rs_2:" + "   " + Convert::ToString(R_N_2));
-
-
-        for (int j = 0; j < m + 1; j++)
-            for (int i = 0; i < n + 1; i++) {
-                if (std::abs(u(i, j, n, m) - v[i][j]) > uv_max) {
-                    uv_max = std::abs(u(i, j, n, m) - v[i][j]);
-                    x_max = a + i * h;
-                    y_max = c + j * k;
-                }
-            }
-
-        this->label12->Text = ("Макс. разность двух решений |U-V|:" + "   " + Convert::ToString(round(uv_max * 1e8) / 1e8));
-        this->label13->Text = ("В узле (x, y):" + "   (" + Convert::ToString(round(x_max * 1e8) / 1e8) + ", " + Convert::ToString(round(y_max * 1e8) / 1e8) + ")");
-
-        //if (this->radioButtonU->Checked) {
-            dataGridView5->Rows->Clear();
-            dataGridView5->Columns->Clear();
-            this->dataGridView5->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(newm, 100); j++) {
-                this->dataGridView5->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++) {
-                this->dataGridView5->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++)
-                for (int j = 0; j <= std::min(newm, 100); j++)
-                    this->dataGridView5->Rows[j]->Cells[i + 1]->Value = round(u(i,j,n,m) * 1e8) / 1e8;
-        //}
-
-        //if (this->radioButtonV->Checked) {
-            dataGridView6->Rows->Clear();
-            dataGridView6->Columns->Clear();
-            this->dataGridView6->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(newm, 100); j++) {
-                this->dataGridView6->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++) {
-                this->dataGridView6->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++)
-                for (int j = 0; j <= std::min(newm, 100); j++)
-                    this->dataGridView6->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
-        //}
-
-        //if (this->radioButtonV2V->Checked) {
-            dataGridView7->Rows->Clear();
-            dataGridView7->Columns->Clear();
-            this->dataGridView7->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(newm, 100); j++) {
-                this->dataGridView7->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++) {
-                this->dataGridView7->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++)
-                for (int j = 0; j <= std::min(newm, 100); j++)
-                    this->dataGridView7->Rows[j]->Cells[i + 1]->Value = round(std::abs(u(i,j,n,m) - v[i][j]) * 1e8) / 1e8;
-        //}
-
-        //if (radioButtonDrawU->Checked) {
-            chart1->ChartAreas[0]->RecalculateAxesScale();
-            double x1, y1, z1;
-            double xstep1 = (b - a) / n, ystep1 = (d - c) / m;
-            double max1 = u(a, c, n, m), min1 = max1;
-            Color Color2;
-            for (x1 = a; x1 <= b; x1 += xstep1)
-                for (y1 = c; y1 <= d; y1 += ystep1) {
-                    int i = int((x1 - a) / xstep1);
-                    int j = int((y1 - c) / ystep1);
-                    z1 = u(i, j, n, m);
-                    if (z1 > max1) max1 = z1;
-                    else if (z1 < min1) min1 = z1;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart1->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x1 = a + i * xstep1;
-                    y1 = c + j * ystep1;
-                    z1 = u(i, j, n, m);
-                    chart1->Series[i]->Points->AddXY((double)y1, z1);
-                    Color2 = calculateColorPurple(min1, z1, max1);
-                    chart1->Series[i]->Points[j]->Color = Color2;
-                    chart1->Series[i]->Points[j]->BackSecondaryColor = Color2;
-                }
-            }
-        //}
-
-        //if (radioButtonDrawV->Checked) {
-            chart8->ChartAreas[0]->RecalculateAxesScale();
-            double x8, y8, z8;
-            double xstep8 = (b - a) / n, ystep8 = (d - c) / m;
-            double max8 = v[0][0], min8 = max8;
-            Color Color8;
-            for (x8 = a; x8 <= b; x8 += xstep8)
-                for (y8 = c; y8 <= d; y8 += ystep8) {
-                    int i = int((x8 - a) / xstep8);
-                    int j = int((y8 - c) / ystep8);
-                    z8 = v[i][j];
-                    if (z8 > max8) max8 = z8;
-                    else if (z8 < min8) min8 = z8;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart8->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x8 = a + i * xstep8;
-                    y8 = c + j * ystep8;
-                    z8 = v[i][j];
-                    chart8->Series[i]->Points->AddXY((double)y8, z8);
-                    Color8 = calculateColorBlue(min8, z8, max8);
-                    chart8->Series[i]->Points[j]->Color = Color8;
-                    chart8->Series[i]->Points[j]->BackSecondaryColor = Color8;
-                }
-            }
-        //}
-
-        //if (radioButtonDrawUV->Checked) {
-            chart9->ChartAreas[0]->RecalculateAxesScale();
-            double x9, y9, z9;
-            double xstep9 = (b - a) / n, ystep9 = (d - c) / m;
-            double max9 = u(a, c, n, m)-v[0][0], min9 = max9;
-            Color Color9;
-            for (x9 = a; x9 <= b; x9 += xstep9)
-                for (y9 = c; y9 <= d; y9 += ystep9) {
-                    int i = int((x9 - a) / xstep9);
-                    int j = int((y9 - c) / ystep9);
-                    z9 = u(i,j,n,m) - v[i][j];
-                    if (z9 > max9) max9 = z9;
-                    else if (z9 < min9) min9 = z9;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart9->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x9 = a + i * xstep9;
-                    y9 = c + j * ystep9;
-                    z9 = u(i, j, n, m)-v[i][j];
-                    chart9->Series[i]->Points->AddXY((double)y9, z9);
-                    Color9 = calculateColorRed(min9, z9, max9);
-                    chart9->Series[i]->Points[j]->Color = Color9;
-                    chart9->Series[i]->Points[j]->BackSecondaryColor = Color9;
-                }
-            }
-        //}
-    }
-
-    System::Void buttonCalculateMain_Click(System::Object^  sender, System::EventArgs^  e) {
-        n = Convert::ToInt32(textBox8->Text);
-        m = Convert::ToInt32(textBox7->Text);
-        eps = Convert::ToDouble(textBox6->Text);
-        Nmax = Convert::ToInt32(textBox5->Text);
-
-        int n_2 = 2 * n;
-        int m_2 = 2 * m;
-
-        double w2;
-
-        int s = 0, s2 = 0;
-        double eps_max = 0.0, eps_max2 = 0.0;
-        double eps_cur = 0.0, eps_curr2 = 0.0;
-        double solve_eps = 0.0;
-        double a2, k2, h2, a2_2, k2_2, h2_2;
-        double h = (b - a) / n;
-        double k = (d - c) / m;
-        double h_2 = (b - a) / n_2;
-        double k_2 = (d - c) / m_2;
-
-        if (checkBox1->Checked) {
-            w = 2.0 - (h + k);
-            w2 = 2.0 - (h_2 + k_2);
-        }
-        else {
-            w = Convert::ToDouble(textBox10->Text);
-            w2 = w;
-        }
-        
-
-        double v2v_max = 0.0;
-        double x_max, y_max;
-
-        std::vector<std::vector<double>> v(n + 1, std::vector<double>(m + 1, 0.0));
-        std::vector<std::vector<double>> f(n + 1, std::vector<double>(m + 1, 0.0));
-        std::vector<std::vector<double>> R(n + 1, std::vector<double>(m + 1, 0.0));
-
-        std::vector<std::vector<double>> v2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
-        std::vector<std::vector<double>> f2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
-        std::vector<std::vector<double>> R2(n_2 + 1, std::vector<double>(m_2 + 1, 0.0));
-
-        double v_old, v_old2;
-        double v_new, v_new2;
-        double R_N_2 = 0.0, R2_N_2 = 0.0;
-        double R_0_2 = 0.0, R2_0_2 = 0.0;
-        bool flag = false, flag2 = false;
-
-        h2 = -(1 / (h * h));
-        k2 = -(1 / (k * k));
-        a2 = -2 * (h2 + k2);
-
-        h2_2 = -(1 / (h_2 * h_2));
-        k2_2 = -(1 / (k_2 * k_2));
-        a2_2 = -2 * (h2_2 + k2_2);
-
-        if (radioButtonNullMain->Checked) {
-            //it's ok
-        }
-
-        if (radioButtonXMain->Checked) {
-            for (int j = 1; j < m; j++)
-                for (int i = 1; i < n; i++) {
-                    v[i][j] = interpolationXTest(j, m);
-                }
-
-            for (int j = 1; j < m_2; j++)
-                for (int i = 1; i < n_2; i++) {
-                    v2[i][j] = interpolationXTest(j, m_2);
-                }
-        }
-
-        if (radioButtonYMain->Checked) {
-            for (int j = 1; j < m; j++)
-                for (int i = 1; i < n; i++) {
-                    v[i][j] = interpolationYTest(i, n);
-                }
-
-            for (int j = 1; j < m_2; j++)
-                for (int i = 1; i < n_2; i++) {
-                    v2[i][j] = interpolationYTest(i, n_2);
-                }
-        }
-
-        // initialize u1(y), u2(y) for (n, m)
-        for (int j = 0; j <= m; j++) {
-            double y = c + j * k;
-            v[0][j] = u1(y);
-            v[n][j] = u2(y);
-        }
-
-        // initialize u3(x), u4(x) for (n, m)
-        for (int i = 0; i <= n; i++) {
-            double x = a + i * h;
-            v[i][0] = u3(x);
-            v[i][m] = u4(x);
-        }
-
-        // initialize f(x,y) for (n, m)
-        for (int j = 0; j <= m; j++)
-            for (int i = 0; i <= n; i++) {
-                double x = a + i * h;
-                double y = c + j * k;
-                f[i][j] = f_main(x,y);
-            }
-        // initialize u1(y), u2(y) for (2n, 2m)
-        for (int j = 0; j <= m_2; j++) {
-            double y = c + j * k_2;
-            v2[0][j] = u1(y);
-            v2[n_2][j] = u2(y);
-        }
-
-        // initialize u3(x), u4(x) for (2n, 2m)
-        for (int i = 0; i <= n_2; i++) {
-            double x = a + i * h_2;
-            v2[i][0] = u3(x);
-            v2[i][m_2] = u4(x);
-        }
-
-        // initialize f(x,y) for (2n, 2m)
-        for (int j = 0; j <= m_2; j++)
-            for (int i = 0; i <= n_2; i++) {
-                double x = a + i * h_2;
-                double y = c + j * k_2;
-                f2[i][j] = f_main(x,y);
-            }
-
-        // calculate R0 (n,m)
-        for (int j = 1; j < m; j++)
-            for (int i = 1; i < n; i++) {
-                R[i][j] = a2 * v[i][j] + (h2 * (v[i + 1][j] + v[i - 1][j]) + k2 * (v[i][j + 1] + v[i][j - 1])) - f[i][j];
-            }
-
-        for (int i = 0; i < n + 1; i++)
-            for (int j = 0; j < m + 1; j++) {
-                R_0_2 += R[i][j] * R[i][j];
-            }
-        R_0_2 = std::sqrt(R_0_2);
-        // end of calculating R0 (n,m)
-
-        // calculate R0 (2n,2m)
-        for (int j = 1; j < m_2; j++)
-            for (int i = 1; i < n_2; i++) {
-                R2[i][j] = a2_2 * v2[i][j] + (h2_2 * (v2[i + 1][j] + v2[i - 1][j]) + k2_2 * (v2[i][j + 1] + v2[i][j - 1])) - f2[i][j];
-            }
-
-        for (int i = 0; i < n_2 + 1; i++)
-            for (int j = 0; j < m_2 + 1; j++) {
-                R2_0_2 += R2[i][j] * R2[i][j];
-            }
-        R2_0_2 = std::sqrt(R2_0_2);
-        // end of calculating R0 (2n,2m)
-
-        this->chart2->Series->Clear();
-        this->chart3->Series->Clear();
-        this->chart4->Series->Clear();
-        this->chart5->Series->Clear();
-        this->chart6->Series->Clear();
-
-        //if (radioButtonDrawV0Main->Checked) {
-            chart2->ChartAreas[0]->RecalculateAxesScale();
-            double x1, y1, z1;
-            double xstep1 = (b - a) / n, ystep1 = (d - c) / m;
-            double max1 = v[0][0], min1 = max1;
-            Color Color1;
-            for (x1 = a; x1 <= b; x1 += xstep1)
-                for (y1 = c; y1 <= d; y1 += ystep1) {
-                    int i = int((x1 - a) / xstep1);
-                    int j = int((y1 - c) / ystep1);
-                    z1 = v[i][j];
-                    if (z1 > max1) max1 = z1;
-                    else if (z1 < min1) min1 = z1;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart2->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x1 = a + i * xstep1;
-                    y1 = c + j * ystep1;
-                    z1 = v[i][j];
-                    chart2->Series[i]->Points->AddXY((double)y1, z1);
-                    Color1 = calculateColorBlue(min1, z1, max1);
-                    chart2->Series[i]->Points[j]->Color = Color1;
-                    chart2->Series[i]->Points[j]->BackSecondaryColor = Color1;
-                }
-            }
-        //}
-
-        //if (radioButtonDrawV20->Checked) {
-            chart3->ChartAreas[0]->RecalculateAxesScale();
-            double x2, y2, z2;
-            double xstep2 = (b - a) / n_2, ystep2 = (d - c) / m_2;
-            double max2 = v2[0][0], min2 = max2;
-            Color Color2;
-            for (x2 = a; x2 <= b; x2 += xstep2)
-                for (y2 = c; y2 <= d; y2 += ystep2) {
-                    int i = int((x2 - a) / xstep2);
-                    int j = int((y2 - c) / ystep2);
-                    z2 = v2[i][j];
-                    if (z2 > max2) max2 = z2;
-                    else if (z2 < min2) min2 = z2;
-                }
-            for (int i = 0; i <= n_2; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart3->Series->Add(Series1);
-                for (int j = 0; j <= m_2; j++) {
-                    x2 = a + i * xstep2;
-                    y2 = c + j * ystep2;
-                    z2 = v2[i][j];
-                    chart3->Series[i]->Points->AddXY((double)y2, z2);
-                    Color2 = calculateColorPurple(min2, z2, max2);
-                    chart3->Series[i]->Points[j]->Color = Color2;
-                    chart3->Series[i]->Points[j]->BackSecondaryColor = Color2;
-                }
-            }
-        //}
-
-        while (!flag2) {
-            eps_max2 = 0.0;
-
-            // (2n, 2m)
-            for (int j = 1; j < m_2; j++) {
-                for (int i = 1; i < n_2; i++) {
-                    v_old2 = v2[i][j];
-                    v_new2 = -w2 * (h2_2 * (v2[i + 1][j] + v2[i - 1][j]) + k2_2 * (v2[i][j + 1] + v2[i][j - 1]));
-                    v_new2 = v_new2 + (1 - w2) * a2_2 * v2[i][j] + w2 * f2[i][j];
-                    v_new2 = v_new2 / a2_2;
-                    R2[i][j] = a2_2 * v2[i][j] + (h2_2*(v2[i + 1][j] + v2[i - 1][j]) + k2_2* (v2[i][j + 1] + v2[i][j - 1])) - f2[i][j];
-                    eps_curr2 = std::abs(v_old2 - v_new2);
-                    if (eps_curr2 > eps_max2) {
-                        eps_max2 = eps_curr2;
-                    }
-                    v2[i][j] = v_new2;
-                }
-            }
-
-            s2++;
-            if ((eps_max2 <= eps) || (s2 >= Nmax)) {
-                flag2 = true;
-            }
-        }
-
-
-        while (!flag) {
-            eps_max = 0.0;
-
-            // (n, m)
-            for (int j = 1; j < m; j++) {
-                for (int i = 1; i < n; i++) {
-                    v_old = v[i][j];
-                    v_new = -w * (h2 * (v[i + 1][j] + v[i - 1][j]) + k2 * (v[i][j + 1] + v[i][j - 1]));
-                    v_new = v_new + (1 - w) * a2 * v[i][j] + w * f[i][j];
-                    v_new = v_new / a2;
-                    R[i][j] = a2 * v[i][j] + (h2*(v[i + 1][j] + v[i - 1][j]) + k2 * (v[i][j + 1] + v[i][j - 1])) - f[i][j];
-                    eps_cur = std::abs(v_old - v_new);
-                    if (eps_cur > eps_max) {
-                        eps_max = eps_cur;
-                    }
-                    v[i][j] = v_new;
-                }
-            }
-
-            s++;
-            if ((eps_max <= eps) || (s >= Nmax)) {
-                flag = true;
-            }
-        }
-
-        R_N_2 = 0.0;
-        for (int i = 0; i < n + 1; i++)
-            for (int j = 0; j < m + 1; j++) {
-                R_N_2 += R[i][j] * R[i][j];
-            }
-        R_N_2 = std::sqrt(R_N_2);
-
-        R2_N_2 = 0.0;
-        for (int i = 0; i < n_2 + 1; i++)
-            for (int j = 0; j < m_2 + 1; j++) {
-                R2_N_2 += R2[i][j] * R2[i][j];
-            }
-        R2_N_2 = std::sqrt(R2_N_2);
-
-        for (int j = 0; j < m + 1; j++)
-            for (int i = 0; i < n + 1; i++) {
-                if (std::abs(v2[2 * i][2 * j] - v[i][j]) > solve_eps) {
-                    solve_eps = std::abs(v2[2 * i][2 * j] - v[i][j]);
-                }
-
-            }
-
-        this->label27->Text = "Метод:    метод верхней релаксации";
-        this->label26->Text = ("Параметр метода:" + "   " + Convert::ToString(w));
-        this->label25->Text = ("Количество итераций:" + "   " + Convert::ToString(s));
-        this->label24->Text = ("Достиг. точность метода:" + "   " + Convert::ToString(eps_max));
-        this->label23->Text = ("Невязка СЛАУ на нач. приближении R0_2:" + "   " + Convert::ToString(round(R_0_2 * 1e8) / 1e8));
-        this->label22->Text = ("Схема на сетке решена с невязкой Rs_2:" + "   " + Convert::ToString(R_N_2));
-        this->label30->Text = ("Достиг. точность решения:" + "   " + Convert::ToString(solve_eps));
-
-        this->label32->Text = "Метод:    метод верхней релаксации";
-        this->label36->Text = ("Параметр метода:" + "   " + Convert::ToString(w2));
-        this->label40->Text = ("Количество итераций:" + "   " + Convert::ToString(s2));
-        this->label38->Text = ("Достиг. точность метода:" + "   " + Convert::ToString(eps_max2));
-        this->label39->Text = ("Невязка СЛАУ на нач. приближении R2_0_2:" + "   " + Convert::ToString(round(R2_0_2 * 1e8) / 1e8));
-        this->label37->Text = ("Схема на сетке решена с невязкой R2_s_2:" + "   " + Convert::ToString(R2_N_2));
-
-        for (int j = 0; j <= m; j++)
-            for (int i = 0; i <= n; i++) {
-                if (std::abs(v2[2 * i][2 * j] - v[i][j]) > v2v_max) {
-                    v2v_max = std::abs(v2[2 * i][2 * j] - v[i][j]);
-                    x_max = a + i * h;
-                    y_max = c + j * k;
-                }
-            }
-
-        this->label21->Text = ("Макс. разность двух решений |V2-V|:" + "   " + Convert::ToString(round(v2v_max * 1e8) / 1e8));
-        this->label20->Text = ("В узле (x, y):" + "   (" + Convert::ToString(round(x_max * 1e8) / 1e8) + ", " + Convert::ToString(round(y_max * 1e8) / 1e8) + ")");
-
-        int newm = m;
-        int newn = n;
-
-        //if (this->radioButtonV_main->Checked) {
-            dataGridView2->Rows->Clear();
-            dataGridView2->Columns->Clear();
-            this->dataGridView2->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(newm, 100); j++) {
-                this->dataGridView2->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++) {
-                this->dataGridView2->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int j = 0; j <= std::min(newm, 100); j++)
-                for (int i = 0; i <= std::min(newn, 100); i++)
-                    this->dataGridView2->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
-        //}
-
-        //if (this->radioButtonV2_main->Checked) {
-            dataGridView3->Rows->Clear();
-            dataGridView3->Columns->Clear();
-            this->dataGridView3->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(m_2, 100); j++) {
-                this->dataGridView3->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(n_2, 100); i++) {
-                this->dataGridView3->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int i = 0; i <= std::min(n_2, 100); i++)
-                for (int j = 0; j <= std::min(m_2, 100); j++)
-                    this->dataGridView3->Rows[j]->Cells[i + 1]->Value = round(v2[i][j] * 1e8) / 1e8;
-        //}
-
-        //if (this->radioButtonV2V_main->Checked) {
-            dataGridView4->Rows->Clear();
-            dataGridView4->Columns->Clear();
-            this->dataGridView4->Columns->Add("", "j / i");
-            for (int j = 0; j <= std::min(newm, 100); j++) {
-                this->dataGridView4->Rows->Add(Convert::ToString(j));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++) {
-                this->dataGridView4->Columns->Add("", Convert::ToString(i));
-            }
-
-            for (int i = 0; i <= std::min(newn, 100); i++)
-                for (int j = 0; j <= std::min(newm, 100); j++)
-                    this->dataGridView4->Rows[j]->Cells[i + 1]->Value = round(std::abs(v2[2 * i][2 * j] - v[i][j]) * 1e8) / 1e8;
-        //}
-
-
-        //if (radioButtonDrawVMain->Checked) {
-            chart4->ChartAreas[0]->RecalculateAxesScale();
-            double x3, y3, z3;
-            double xstep3 = (b - a) / n, ystep3 = (d - c) / m;
-            double max3 = v[0][0], min3 = max3;
-            Color Color3;
-            for (x3 = a; x3 <= b; x3 += xstep3)
-                for (y3 = c; y3 <= d; y3 += ystep3) {
-                    int i = int((x3 - a) / xstep3);
-                    int j = int((y3 - c) / ystep3);
-                    z3 = v[i][j];
-                    if (z3 > max3) max3 = z3;
-                    else if (z3 < min3) min3 = z3;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart4->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x3 = a + i * xstep3;
-                    y3 = c + j * ystep3;
-                    z3 = v[i][j];
-                    chart4->Series[i]->Points->AddXY((double)y3, z3);
-                    Color3 = calculateColorBlue(min3, z3, max3);
-                    chart4->Series[i]->Points[j]->Color = Color3;
-                    chart4->Series[i]->Points[j]->BackSecondaryColor = Color3;
-                }
-            }
-        //}
-
-        //if (radioButtonDrawV2->Checked) {
-            chart5->ChartAreas[0]->RecalculateAxesScale();
-            double x4, y4, z4;
-            double xstep4 = (b - a) / n_2, ystep4 = (d - c) / m_2; //шаги
-            double max4 = v2[0][0], min4 = max4;
-            Color Color4;
-            for (x4 = a; x4 <= b; x4 += xstep4)
-                for (y4 = c; y4 <= d; y4 += ystep4) {
-                    int i = int((x4 - a) / xstep4);
-                    int j = int((y4 - c) / ystep4);
-                    z4 = v2[i][j];
-                    if (z4 > max4) max4 = z4;
-                    else if (z4 < min4) min4 = z4;
-                }
-            for (int i = 0; i <= n_2; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart5->Series->Add(Series1);
-                for (int j = 0; j <= m_2; j++) {
-                    x4 = a + i * xstep4;
-                    y4 = c + j * ystep4;
-                    z4 = v2[i][j];
-                    chart5->Series[i]->Points->AddXY((double)y4, z4);
-                    Color4 = calculateColorPurple(min4, z4, max4);
-                    chart5->Series[i]->Points[j]->Color = Color4;
-                    chart5->Series[i]->Points[j]->BackSecondaryColor = Color4;
-                }
-            }
-        //}
-        
-        //if (radioButtonDrawVV2->Checked) {
-            chart6->ChartAreas[0]->RecalculateAxesScale();
-            double x5, y5, z5;
-            double xstep5 = (b - a) / n, ystep5 = (d - c) / m;
-            double max5 = v[0][0] - v2[0][0], min5 = max5;
-            Color Color5;
-            for (x5 = a; x5 <= b; x5 += xstep5)
-                for (y5 = c; y5 <= d; y5 += ystep5) {
-                    int i = int((x5 - a) / xstep5);
-                    int j = int((y5 - c) / ystep5);
-                    z5 = v[i][j] - v2[2 * i][2 * j];
-                    if (z5 > max5) max5 = z5;
-                    else if (z5 < min5) min5 = z5;
-                }
-            for (int i = 0; i <= n; i++) {
-                Series^ Series1 = gcnew Series();
-                Series1->ChartType = SeriesChartType::Spline;
-                Series1->Color = Color::Blue;
-                chart6->Series->Add(Series1);
-                for (int j = 0; j <= m; j++) {
-                    x5 = a + i * xstep5;
-                    y5 = c + j * ystep5;
-                    z5 = v[i][j] - v2[2 * i][2 * j];
-                    chart6->Series[i]->Points->AddXY((double)y5, z5);
-                    Color5 = calculateColorRed(min5, z5, max5);
-                    chart6->Series[i]->Points[j]->Color = Color5;
-                    chart6->Series[i]->Points[j]->BackSecondaryColor = Color5;
-                }
-            }
-       // }
-    }
-};
-    }
+               R_N_2 = 0.0;
+               for (int i = 0; i < n + 1; i++)
+                   for (int j = 0; j < m + 1; j++) {
+                       R_N_2 += R[i][j] * R[i][j];
+                   }
+               R_N_2 = std::sqrt(R_N_2);
+
+               R2_N_2 = 0.0;
+               for (int i = 0; i < n_2 + 1; i++)
+                   for (int j = 0; j < m_2 + 1; j++) {
+                       R2_N_2 += R2[i][j] * R2[i][j];
+                   }
+               R2_N_2 = std::sqrt(R2_N_2);
+
+               for (int j = 0; j < m + 1; j++)
+                   for (int i = 0; i < n + 1; i++) {
+                       if (std::abs(v2[2 * i][2 * j] - v[i][j]) > solve_eps) {
+                           solve_eps = std::abs(v2[2 * i][2 * j] - v[i][j]);
+                       }
+
+                   }
+
+               this->label27->Text = "РњРµС‚РѕРґ:    РјРµС‚РѕРґ РїСЂРѕСЃС‚РѕР№ РёС‚РµСЂР°С†РёРё";
+               this->label26->Text = ("РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(tau));
+               this->label25->Text = ("РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№:" + "   " + Convert::ToString(s));
+               this->label24->Text = ("Р”РѕСЃС‚РёРі. С‚РѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(eps_max));
+               this->label23->Text = ("РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р»РёР¶РµРЅРёРё R0_2:" + "   " + Convert::ToString(round(R_0_2 * 1e10) / 1e10));
+               this->label22->Text = ("РЎС…РµРјР° РЅР° СЃРµС‚РєРµ СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ Rs_2:" + "   " + Convert::ToString(R_N_2));
+               this->label30->Text = ("Р”РѕСЃС‚РёРі. С‚РѕС‡РЅРѕСЃС‚СЊ СЂРµС€РµРЅРёСЏ:" + "   " + Convert::ToString(solve_eps));
+
+               this->label32->Text = "РњРµС‚РѕРґ:    РјРµС‚РѕРґ РїСЂРѕСЃС‚РѕР№ РёС‚РµСЂР°С†РёРё";
+               this->label36->Text = ("РџР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(tau));
+               this->label40->Text = ("РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№:" + "   " + Convert::ToString(s2));
+               this->label38->Text = ("Р”РѕСЃС‚РёРі. С‚РѕС‡РЅРѕСЃС‚СЊ РјРµС‚РѕРґР°:" + "   " + Convert::ToString(eps_max2));
+               this->label39->Text = ("РќРµРІСЏР·РєР° РЎР›РђРЈ РЅР° РЅР°С‡. РїСЂРёР±Р»РёР¶РµРЅРёРё R2_0_2:" + "   " + Convert::ToString(round(R2_0_2 * 1e10) / 1e10));
+               this->label37->Text = ("РЎС…РµРјР° РЅР° СЃРµС‚РєРµ СЂРµС€РµРЅР° СЃ РЅРµРІСЏР·РєРѕР№ R2_s_2:" + "   " + Convert::ToString(R2_N_2));
+
+               for (int j = 0; j <= m; j++)
+                   for (int i = 0; i <= n; i++) {
+                       if (std::abs(v2[2 * i][2 * j] - v[i][j]) > v2v_max) {
+                           v2v_max = std::abs(v2[2 * i][2 * j] - v[i][j]);
+                           x_max = a + i * h;
+                           y_max = c + j * k;
+                       }
+                   }
+
+               this->label21->Text = ("РњР°РєСЃ. СЂР°Р·РЅРѕСЃС‚СЊ РґРІСѓС… СЂРµС€РµРЅРёР№ |V2-V|:" + "   " + Convert::ToString(round(v2v_max * 1e10) / 1e10));
+               this->label20->Text = ("Р’ СѓР·Р»Рµ (x, y):" + "   (" + Convert::ToString(round(x_max * 1e8) / 1e8) + ", " + Convert::ToString(round(y_max * 1e10) / 1e10) + ")");
+
+               int newm = m;
+               int newn = n;
+
+               //if (this->radioButtonV_main->Checked) {
+               dataGridView2->Rows->Clear();
+               dataGridView2->Columns->Clear();
+               this->dataGridView2->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(newm, 100); j++) {
+                   this->dataGridView2->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView2->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int j = 0; j <= std::min(newm, 100); j++)
+                   for (int i = 0; i <= std::min(newn, 100); i++)
+                       this->dataGridView2->Rows[j]->Cells[i + 1]->Value = round(v[i][j] * 1e8) / 1e8;
+               //}
+
+               //if (this->radioButtonV2_main->Checked) {
+               dataGridView3->Rows->Clear();
+               dataGridView3->Columns->Clear();
+               this->dataGridView3->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(m_2, 100); j++) {
+                   this->dataGridView3->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(n_2, 100); i++) {
+                   this->dataGridView3->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int i = 0; i <= std::min(n_2, 100); i++)
+                   for (int j = 0; j <= std::min(m_2, 100); j++)
+                       this->dataGridView3->Rows[j]->Cells[i + 1]->Value = round(v2[i][j] * 1e8) / 1e8;
+               //}
+
+               //if (this->radioButtonV2V_main->Checked) {
+               dataGridView4->Rows->Clear();
+               dataGridView4->Columns->Clear();
+               this->dataGridView4->Columns->Add("", "j / i");
+               for (int j = 0; j <= std::min(newm, 100); j++) {
+                   this->dataGridView4->Rows->Add(Convert::ToString(j));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++) {
+                   this->dataGridView4->Columns->Add("", Convert::ToString(i));
+               }
+
+               for (int i = 0; i <= std::min(newn, 100); i++)
+                   for (int j = 0; j <= std::min(newm, 100); j++)
+                       this->dataGridView4->Rows[j]->Cells[i + 1]->Value = round(std::abs(v2[2 * i][2 * j] - v[i][j]) * 1e8) / 1e8;
+               //}
+
+
+               //if (radioButtonDrawVMain->Checked) {
+               chart4->ChartAreas[0]->RecalculateAxesScale();
+               double x3, y3, z3;
+               double xstep3 = (b - a) / n, ystep3 = (d - c) / m;
+               double max3 = v[0][0], min3 = max3;
+               Color Color3;
+               for (x3 = a; x3 <= b; x3 += xstep3)
+                   for (y3 = c; y3 <= d; y3 += ystep3) {
+                       int i = int((x3 - a) / xstep3);
+                       int j = int((y3 - c) / ystep3);
+                       z3 = v[i][j];
+                       if (z3 > max3) max3 = z3;
+                       else if (z3 < min3) min3 = z3;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart4->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x3 = a + i * xstep3;
+                       y3 = c + j * ystep3;
+                       z3 = v[i][j];
+                       chart4->Series[i]->Points->AddXY((double)y3, z3);
+                       Color3 = calculateColorBlue(min3, z3, max3);
+                       chart4->Series[i]->Points[j]->Color = Color3;
+                       chart4->Series[i]->Points[j]->BackSecondaryColor = Color3;
+                   }
+               }
+               //}
+
+               //if (radioButtonDrawV2->Checked) {
+               chart5->ChartAreas[0]->RecalculateAxesScale();
+               double x4, y4, z4;
+               double xstep4 = (b - a) / n_2, ystep4 = (d - c) / m_2; //ГёГ ГЈГЁ
+               double max4 = v2[0][0], min4 = max4;
+               Color Color4;
+               for (x4 = a; x4 <= b; x4 += xstep4)
+                   for (y4 = c; y4 <= d; y4 += ystep4) {
+                       int i = int((x4 - a) / xstep4);
+                       int j = int((y4 - c) / ystep4);
+                       z4 = v2[i][j];
+                       if (z4 > max4) max4 = z4;
+                       else if (z4 < min4) min4 = z4;
+                   }
+               for (int i = 0; i <= n_2; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart5->Series->Add(Series1);
+                   for (int j = 0; j <= m_2; j++) {
+                       x4 = a + i * xstep4;
+                       y4 = c + j * ystep4;
+                       z4 = v2[i][j];
+                       chart5->Series[i]->Points->AddXY((double)y4, z4);
+                       Color4 = calculateColorPurple(min4, z4, max4);
+                       chart5->Series[i]->Points[j]->Color = Color4;
+                       chart5->Series[i]->Points[j]->BackSecondaryColor = Color4;
+                   }
+               }
+               //}
+
+               //if (radioButtonDrawVV2->Checked) {
+               chart6->ChartAreas[0]->RecalculateAxesScale();
+               double x5, y5, z5;
+               double xstep5 = (b - a) / n, ystep5 = (d - c) / m;
+               double max5 = v[0][0] - v2[0][0], min5 = max5;
+               Color Color5;
+               for (x5 = a; x5 <= b; x5 += xstep5)
+                   for (y5 = c; y5 <= d; y5 += ystep5) {
+                       int i = int((x5 - a) / xstep5);
+                       int j = int((y5 - c) / ystep5);
+                       z5 = v[i][j] - v2[2 * i][2 * j];
+                       if (z5 > max5) max5 = z5;
+                       else if (z5 < min5) min5 = z5;
+                   }
+               for (int i = 0; i <= n; i++) {
+                   Series^ Series1 = gcnew Series();
+                   Series1->ChartType = SeriesChartType::Spline;
+                   Series1->Color = Color::Blue;
+                   chart6->Series->Add(Series1);
+                   for (int j = 0; j <= m; j++) {
+                       x5 = a + i * xstep5;
+                       y5 = c + j * ystep5;
+                       z5 = v[i][j] - v2[2 * i][2 * j];
+                       chart6->Series[i]->Points->AddXY((double)y5, z5);
+                       Color5 = calculateColorRed(min5, z5, max5);
+                       chart6->Series[i]->Points[j]->Color = Color5;
+                       chart6->Series[i]->Points[j]->BackSecondaryColor = Color5;
+                   }
+               }
+               // }
+           }
+    };
+}
